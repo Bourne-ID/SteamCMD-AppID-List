@@ -15,6 +15,7 @@ https://api.steampowered.com/ISteamApps/GetAppList/v2/
 You can get the output without using the script.
 
 [steamcmd_appid.json](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid.json)
+
 [steamcmd_appid.csv](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid.csv)
 > Travis-CI checks daily for updates and posts them to this repo. So this list will always be up-to-date.
 
