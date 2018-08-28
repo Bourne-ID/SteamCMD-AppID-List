@@ -6,7 +6,7 @@
 
 ## Description
 
-This repo stores every `AppID` and its name available on Steam as json and CSV by grabing the info from the SteamAPI.
+This repo stores every `AppID` and its name available on Steam as `json` and `CSV` by grabbing the info from the SteamAPI.
 ```
 https://api.steampowered.com/ISteamApps/GetAppList/v2/
 ```
