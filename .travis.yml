@@ -1,4 +1,4 @@
-language: bash
+language: bash node_js
 dist: trusty
 sudo: required
 
@@ -12,6 +12,9 @@ addons:
     - libstdc++6:i386
     - git
     - jq
+
+install:
+  - npm install -g markdown-table-cli
 
 script:
   - bash ./steamcmd_appid.sh
