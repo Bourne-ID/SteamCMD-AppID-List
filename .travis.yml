@@ -13,9 +13,8 @@ addons:
     - git
     - jq
 
-cache:
-  directories:
-    - "markdown-table-cli"
+install:
+  - npm install -g markdown-table-cli
 
 script:
   - bash ./steamcmd_appid.sh
