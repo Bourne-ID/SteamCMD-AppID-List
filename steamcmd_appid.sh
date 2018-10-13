@@ -32,6 +32,9 @@ else
     echo "Steam already installed!"
 fi
 cd "${rootdir}/steamcmd"
-./steamcmd.sh +login anonymous +app_status 740 +exit | grep Subscribed
+subscription=$(./steamcmd.sh +login anonymous +app_status 740 +exit | grep Subscribed | wc -l)
+if [ "${subscription}" == "1" ]; then
+	echo "Anonymous sub available"
+fi
 echo "exit"
 exit
