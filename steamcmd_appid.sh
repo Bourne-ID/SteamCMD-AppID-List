@@ -32,7 +32,7 @@ else
     echo "Steam already installed!"
 fi
 
-for row in $( cat "steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
+for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
     subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
     if [ "${subscription}" == "1" ]; then
         echo "anon sub available: ${row}";
