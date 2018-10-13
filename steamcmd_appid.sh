@@ -15,5 +15,24 @@ echo "Creating steamcmd_appid.csv"
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid, .name] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 steamcmd.sh +login anonymous +app_status 215360 +exit|grep Subscribed
-echo "exit1"
+
+# Install SteamCMD
+echo ""
+echo "Installing SteamCMD"
+echo "================================="
+cd "${rootdir}"
+mkdir -pv "steamcmd"
+cd "steamcmd"
+if [ ! -f "steamcmd.sh" ]; then
+    echo -e "downloading steamcmd_linux.tar.gz...\c"
+    wget -N /dev/null http://media.steampowered.com/client/steamcmd_linux.tar.gz 2>&1 | grep -F HTTP | cut -c45-| uniq
+    tar --verbose -zxf "steamcmd_linux.tar.gz"
+    rm -v "steamcmd_linux.tar.gz"
+    chmod +x "steamcmd.sh"
+else
+    echo "Steam already installed!"
+fi
+cd "${rootdir}/steamcmd"
+./steamcmd.sh +login anonymous +app_status 215360 +exit | grep Subscribed | wc -l
+echo "exit"
 exit
