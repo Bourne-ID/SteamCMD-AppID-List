@@ -15,5 +15,5 @@ echo "Creating steamcmd_appid.csv"
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid, .name] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 steamcmd.sh +login anonymous +app_status 215360 +exit|grep Subscribed
-echo "exit"
+echo "exit1"
 exit
