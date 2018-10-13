@@ -33,6 +33,6 @@ else
     echo "Steam already installed!"
 fi
 cd "${rootdir}/steamcmd"
-./steamcmd.sh +login anonymous +app_status 215360 +exit | grep Subscribed | wc -l
+./steamcmd.sh +login anonymous +app_status 740 +exit | grep Subscribed | wc -l
 echo "exit"
 exit
