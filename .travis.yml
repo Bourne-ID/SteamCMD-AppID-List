@@ -12,6 +12,7 @@ addons:
     - libstdc++6:i386
     - git
     - jq
+    - steamcmd
 
 install:
   - npm install -g markdown-table-cli
