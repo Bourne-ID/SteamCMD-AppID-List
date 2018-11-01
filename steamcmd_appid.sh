@@ -32,14 +32,18 @@ else
     echo "Steam already installed!"
 fi
 
-for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
-    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
-    if [ "${subscription}" == "1" ]; then
-        echo "anonymous sub available: YES: ${row}";
-    else
-    	echo "anonymous sub available: NO: ${row}";
-    fi
-done
+tmux new-session -d
+tmux send-keys "echo Hello World" ENTER
+tmux kill-session
+
+#for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
+#    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
+#    if [ "${subscription}" == "1" ]; then
+#        echo "anonymous sub available: YES: ${row}";
+#    else
+#    	echo "anonymous sub available: NO: ${row}";
+#    fi
+#done
 
 echo "exit"
 exit
