@@ -32,9 +32,11 @@ else
     echo "Steam already installed!"
 fi
 
-tmux new-session -d
-tmux send-keys "echo Hello World" ENTER
-tmux kill-session
+tmux -V
+#tmux new-session -d
+#tmux send-keys "echo Hello World" ENTER
+#tmux
+#tmux kill-session
 
 #for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
 #    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
