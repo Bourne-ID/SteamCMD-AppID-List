@@ -16,5 +16,15 @@ addons:
 install:
   - npm install -g markdown-table-cli
 
+before_script:
+- git clone https://github.com/tmux/tmux.git tmux
+- cd tmux
+- git checkout $TMUX_VERSION
+- sh autogen.sh
+- ./configure --prefix=$HOME/tmux && make && make install
+- export PATH=$HOME/tmux/bin:$PATH
+- cd ..
+- tmux -V
+
 script:
   - bash ./steamcmd_appid.sh
