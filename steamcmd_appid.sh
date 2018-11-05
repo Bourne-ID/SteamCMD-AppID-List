@@ -15,6 +15,12 @@ echo "Creating steamcmd_appid.csv"
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid, .name] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
+# prep the tmux command file for steamcmd
+cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
+
+# Split the commands into the ENV for the number of sessions (todo)
+#
+
 # Install SteamCMD
 echo ""
 echo "Installing SteamCMD"
@@ -32,14 +38,35 @@ else
     echo "Steam already installed!"
 fi
 
-for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
-    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
-    if [ "${subscription}" == "1" ]; then
-        echo "anonymous sub available: YES: ${row}";
+# Start a tmux session for steamcmd, pipe to file and wait for steam prompt
+tmux new -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane 'cat > ./tmux1'
+steamprompt=false
+for attemptnumber in {1..120}; do
+    if grep -q "Steam>" tmux1; then
+        steamprompt=true
+        break
     else
-    	echo "anonymous sub available: NO: ${row}";
+        echo "."
+        sleep 0.5
     fi
 done
+if steamprompt; then
+#    . ./tmux_commands.sh TODO: Put this back when Travis is ready
+else
+    echo "No steamprompt detected"
+    exit "2"
+fi
+
+#TODO: Regex parse
+
+#for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
+#    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
+#    if [ "${subscription}" == "1" ]; then
+#        echo "anonymous sub available: YES: ${row}";
+#    else
+#    	echo "anonymous sub available: NO: ${row}";
+#    fi
+#done
 
 echo "exit"
 exit
