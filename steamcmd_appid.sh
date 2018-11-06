@@ -17,7 +17,7 @@ cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
 # prep the tmux command file for steamcmd
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
-
+echo "exit" >> tmux_commands.sh
 # Split the commands into the ENV for the number of sessions (todo)
 #
 
@@ -59,11 +59,11 @@ echo "Starting App ID checks"
 
 if [ steamprompt ]; then
     . ./tmux_commands.sh &
-    tmuxcommandspid=$!
     i=1
     sp="/-\|"
     echo -n ' '
-    while [ -d /proc/$tmuxcommandspid ]
+#if [ $(tmux ls | wc -l) -ne "0" ]; then
+    while [ $(tmux ls | wc -l) -ne "0" ]
     do
       printf "\b${sp:i++%${#sp}:1}"
       sleep 0.2
