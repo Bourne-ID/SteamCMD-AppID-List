@@ -39,24 +39,41 @@ else
 fi
 
 # Start a tmux session for steamcmd, pipe to file and wait for steam prompt
+cd "${rootdir}"
 tmux new -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane 'cat > ./tmux1'
 steamprompt=false
+
+echo "Waiting for Steam prompt"
+
 for attemptnumber in {1..120}; do
     if grep -q "Steam>" tmux1; then
         steamprompt=true
         break
     else
-        echo "."
+        echo -n "."
         sleep 0.5
     fi
 done
-if steamprompt; then
-#    . ./tmux_commands.sh TODO: Put this back when Travis is ready
+
+echo "Starting App ID checks"
+
+if [ steamprompt ]; then
+    . ./tmux_commands.sh &
+    tmuxcommandspid=$!
+    i=1
+    sp="/-\|"
+    echo -n ' '
+    while [ -d /proc/$tmuxcommandspid ]
+    do
+      printf "\b${sp:i++%${#sp}:1}"
+      sleep 0.2
+    done
 else
-    echo "No steamprompt detected"
+    echo "No steam prompt detected"
     exit "2"
 fi
 
+cat ./tmux1
 #TODO: Regex parse
 
 #for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
