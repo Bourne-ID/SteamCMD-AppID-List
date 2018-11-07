@@ -14,7 +14,8 @@ addons:
     - jq
     - libevent-dev
     - libncurses-dev
-    - pcre2-utils
+    - wget
+    - unzip
 
 install:
   - npm install -g markdown-table-cli
@@ -28,6 +29,14 @@ before_script:
 - export PATH=$HOME/tmux/bin:$PATH
 - cd ..
 - tmux -V
+- wget https://ftp.pcre.org/pub/pcre/pcre2-10.32.zip
+- unzip pcre2-10.32.zip
+- cd pcre2-10.32
+- sh autogen.sh
+- ./configure && make && make install
+- /sbin/ldconfig
+- cd ..
+- pcre2grep -V
 script:
   - bash ./steamcmd_appid.sh
 
