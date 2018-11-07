@@ -17,7 +17,9 @@ cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
 # prep the tmux command file for steamcmd
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
-echo "exit" >> tmux_commands.sh
+exit > tmux_commands.sh
+#sed -i '1iexit' todo.txt
+#echo "exit" >> tmux_commands.sh
 # Split the commands into the ENV for the number of sessions (todo)
 #
 
