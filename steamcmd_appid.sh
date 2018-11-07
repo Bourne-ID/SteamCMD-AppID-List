@@ -1,9 +1,9 @@
 #!/bin/bash
 # steamcmd_appid.sh
-# Author: Daniel Gibbs
+# Author: Daniel Gibbs and Robin Bourne
 # Website: http://danielgibbs.co.uk
-# Version: 180826
-# Description: Saves the complete list of all the appid their names in json and csv.
+# Version: 181106
+# Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
 
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
