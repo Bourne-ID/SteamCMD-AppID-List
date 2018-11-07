@@ -32,7 +32,6 @@ before_script:
 - wget https://ftp.pcre.org/pub/pcre/pcre2-10.32.zip
 - unzip pcre2-10.32.zip
 - cd pcre2-10.32
-- sh autogen.sh
 - ./configure && make && make install
 - /sbin/ldconfig
 - cd ..
