@@ -32,8 +32,10 @@ before_script:
 - wget https://ftp.pcre.org/pub/pcre/pcre2-10.32.zip
 - unzip pcre2-10.32.zip
 - cd pcre2-10.32
-- ./configure && make && make install
-- /sbin/ldconfig
+- ./configure 
+- make 
+- sudo make install
+- sudo /sbin/ldconfig
 - cd ..
 - pcre2grep -V
 script:
