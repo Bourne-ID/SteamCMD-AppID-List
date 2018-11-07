@@ -73,8 +73,14 @@ else
     exit "2"
 fi
 
-cat ./tmux1
-#TODO: Regex parse
+# Parse file and create CSV of appid,result
+pcre2grep -M -o1 -o2 --om-separator=, 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmux1 > anon1
+
+cat anon1
+
+# AppID ([0-9]{1,6})[\S\s]*?release state: (.*)$
+
+
 
 #for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
 #    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
