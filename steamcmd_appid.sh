@@ -17,7 +17,7 @@ cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
 # prep the tmux command file for steamcmd
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
-echo "exit" > tmux_commands.sh
+echo "tmux send-keys \"exit\" ENTER" > tmux_commands.sh
 #sed -i '1iexit' todo.txt
 #echo "exit" >> tmux_commands.sh
 # Split the commands into the ENV for the number of sessions (todo)
@@ -57,7 +57,7 @@ for attemptnumber in {1..120}; do
     fi
 done
 
-echo "Starting App ID checks"
+echo "\nStarting App ID checks"
 
 if [ steamprompt ]; then
     . ./tmux_commands.sh &
@@ -75,7 +75,6 @@ else
     exit "2"
 fi
 
-cat ./tmux1
 #TODO: Regex parse
 
 #for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
