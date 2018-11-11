@@ -4,6 +4,9 @@
 # Website: http://danielgibbs.co.uk
 # Version: 181106
 # Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
+# env var TMUX_SESSIONS should be set.
+
+TMUX_SESSIONS=4
 
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
@@ -17,9 +20,13 @@ cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
 # prep the tmux command file for steamcmd
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
-echo "tmux send-keys \"exit\" ENTER" >> tmux_commands.sh
-# Split the commands into the ENV for the number of sessions (todo)
-#
+# Split the commands into the ENV for the number of sessions - names of the files will be tmuxXX.sh
+split --numeric-suffixes=1 -n l/${TMUX_SESSIONS} --additional-suffix=.sh tmux_commands.sh tmux
+# Alter each split file to name the relevant session which will be created later
+for id in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
+    sed -i "s/send-keys/send-keys -t tmux${id}/" tmux${id}.sh
+    echo "exit" >> tmux${id}.sh
+done
 
 # Install SteamCMD
 echo ""
@@ -40,13 +47,23 @@ fi
 
 # Start a tmux session for steamcmd, pipe to file and wait for steam prompt
 cd "${rootdir}"
-tmux new -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane 'cat > ./tmux1'
+for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
+    tmux new -s "tmux${sessionid}" -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane "cat > ./tmux${sessionid}"
+done
+
 steamprompt=false
 
 echo "Waiting for Steam prompt"
 
 for attemptnumber in {1..120}; do
-    if grep -q "Steam>" tmux1; then
+    total=1
+    for sessionid in $(seq -f %02g 1 ${TMUX_SESSIONS}); do
+        if grep -q "Steam>" tmux${sessionid}; then
+            total=$(( ${total} + ( 2**${sessionid} ) ))
+        fi
+    done
+
+    if [ $(( (2**(${TMUX_SESSIONS}+1))-1 )) -eq ${total} ]; then
         steamprompt=true
         break
     else
@@ -55,14 +72,15 @@ for attemptnumber in {1..120}; do
     fi
 done
 
-echo "\nStarting App ID checks"
+echo "\n Starting App ID checks"
 
 if [ steamprompt ]; then
-    . ./tmux_commands.sh &
+    for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
+        . ./tmux${sessionid}.sh &
+    done
     i=1
     sp="/-\|"
     echo -n ' '
-#if [ $(tmux ls | wc -l) -ne "0" ]; then
     while [ $(tmux ls | wc -l) -ne "0" ]
     do
       printf "\b${sp:i++%${#sp}:1}"
@@ -91,5 +109,6 @@ cat anon1
 #    fi
 #done
 
+#later we do jq merge on appid index
 echo "exit"
 exit
