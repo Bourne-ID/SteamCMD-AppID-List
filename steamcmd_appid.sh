@@ -26,6 +26,7 @@ split --numeric-suffixes=1 -n l/${TMUX_SESSIONS} --additional-suffix=.sh tmux_co
 for id in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
     sed -i "s/send-keys/send-keys -t tmux${id}/" tmux${id}.sh
     echo "tmux send-keys -t tmux${id} /"exit/" ENTER" >> tmux${id}.sh
+    tail tmux${id}.sh
 done
 
 # Install SteamCMD
