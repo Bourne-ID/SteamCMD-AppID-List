@@ -84,8 +84,8 @@ if [ steamprompt ]; then
     echo -n ' '
     while [ $(tmux ls | wc -l) -ne "0" ]
     do
-      printf "\b${sp:i++%${#sp}:1}"
-      sleep 0.2
+      sleep 5
+      tail -n 1 tmux04
     done
 else
     echo "No steam prompt detected"
