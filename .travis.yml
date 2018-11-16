@@ -46,4 +46,4 @@ script:
 
 env:
   TMUX_VERSION: 2.6
-  TMUX_SESSIONS: 2
+  TMUX_SESSIONS: 3
