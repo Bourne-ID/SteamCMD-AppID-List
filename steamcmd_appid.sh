@@ -25,7 +25,7 @@ split --numeric-suffixes=1 -n l/${TMUX_SESSIONS} --additional-suffix=.sh tmux_co
 # Alter each split file to name the relevant session which will be created later
 for id in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
     sed -i "s/send-keys/send-keys -t tmux${id}/" tmux${id}.sh
-    echo "tmux send-keys -t tmux${id} /"exit/" ENTER" >> tmux${id}.sh
+    echo "tmux send-keys -t tmux${id} \"exit\" ENTER" >> tmux${id}.sh
 done
 
 # Install SteamCMD
@@ -48,7 +48,7 @@ fi
 # Start a tmux session for steamcmd, pipe to file and wait for steam prompt
 cd "${rootdir}"
 for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
-    tmux new -s "tmux${sessionid}" -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane "cat > ./tmux${sessionid}"
+    tmux new -s "tmux${sessionid}" -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane "cat > ./tmuxoutput${sessionid}"
 done
 
 steamprompt=false
@@ -58,7 +58,7 @@ echo "Waiting for Steam prompt"
 for attemptnumber in {1..120}; do
     total=1
     for sessionid in $(seq -f %02g 1 ${TMUX_SESSIONS}); do
-        if grep -q "Steam>" tmux${sessionid}; then
+        if grep -q "Steam>" tmuxoutput${sessionid}; then
             total=$(( ${total} + ( 2**${sessionid} ) ))
         fi
     done
@@ -91,8 +91,10 @@ else
     exit "2"
 fi
 
+for f in tmuxoutput*; do (cat "${f}"; echo) >> tmuxallout.txt; done
+
 # Parse file and create CSV of appid,result
-pcre2grep -M -o1 -o2 --om-separator=, 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmux1 > anon1
+pcre2grep -M -o1 -o2 --om-separator=, 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmuxallout.txt > anon1
 
 cat anon1
 
