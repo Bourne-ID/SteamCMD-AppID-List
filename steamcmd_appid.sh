@@ -55,15 +55,16 @@ steamprompt=false
 
 echo "Waiting for Steam prompt"
 
+# Bitwise check - may be useful for debug in the future
 for attemptnumber in {1..120}; do
-    total=1
+    total=0
     for sessionid in $(seq -f %02g 1 ${TMUX_SESSIONS}); do
         if grep -q "Steam>" tmuxoutput${sessionid}; then
-            total=$(( ${total} + ( 2**${sessionid} ) ))
+            total=$(( ${total} + ( 2**( ${sessionid} - 1 ) ) ))
         fi
     done
 
-    if [ $(( (2**(${TMUX_SESSIONS}+1))-1 )) -eq ${total} ]; then
+    if [ $(( (2**(${TMUX_SESSIONS}))-1 )) -eq ${total} ]; then
         steamprompt=true
         break
     else
