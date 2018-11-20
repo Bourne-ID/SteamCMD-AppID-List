@@ -92,13 +92,30 @@ else
     exit "2"
 fi
 
+# Merge all tmux output to a single file
 for f in tmuxoutput*; do (cat "${f}"; echo) >> tmuxallout.txt; done
 
 # Parse file and create CSV of appid,result
-pcre2grep -M -o1 -o2 --om-separator=, 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmuxallout.txt > anon1
+pcre2grep -M -o1 -o2 --om-separator=\; 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmuxallout.txt > tmuxallout.csv
 
-cat anon1
+# convert the CSV to JSON
+jq -Rsn '
+  {"applist":
+    {"apps":
+      [inputs
+       | . / "\n"
+       | (.[] | select((. | length) > 0) | . / ";") as $input
+       | {"appid": $input[0]|tonumber, "subscription": $input[1]}
+      ]
+    }
+  }
+' < tmuxallout.csv > tmuxallout.json
 
+# Merge the tmux files - not as easy as I first thought...
+
+jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_appid.json tmuxallout.json > steamcmd_appid_anon.json
+cat steamcmd_appid_anon.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+cat steamcmd_appid_anon.json | jq '.[]' | md-table > steamcmd_appid.md
 # AppID ([0-9]{1,6})[\S\s]*?release state: (.*)$
 
 
