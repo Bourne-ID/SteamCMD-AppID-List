@@ -96,7 +96,7 @@ fi
 for f in tmuxoutput*; do (cat "${f}"; echo) >> tmuxallout.txt; done
 
 # Parse file and create CSV of appid,result
-pcre2grep -M -o1 -o2 --om-separator=\; 'AppID ([0-9]{1,6})[\s\S]*?release state: (.*)$' tmuxallout.txt > tmuxallout.csv
+pcre2grep -M -o1 -o2 --om-separator=\; 'AppID ([0-9]{1,8})[\s\S]*?release state: (.*)$' tmuxallout.txt > tmuxallout.csv
 
 # convert the CSV to JSON
 jq -Rsn '
