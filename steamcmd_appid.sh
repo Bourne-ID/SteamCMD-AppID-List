@@ -115,5 +115,8 @@ jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' stea
 cat steamcmd_appid_anon.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid_anon.json | jq -r '.' | md-table > steamcmd_appid.md
 
+# Clean up
+rm tmux*
+
 echo "exit"
 exit
