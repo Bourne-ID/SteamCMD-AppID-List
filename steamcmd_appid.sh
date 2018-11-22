@@ -101,7 +101,7 @@ jq -Rsn '
   {"applist":
     {"apps":
       [inputs
-       | . / "\n"
+       | . / "\r\n"
        | (.[] | select((. | length) > 0) | . / ";") as $input
        | {"appid": $input[0]|tonumber, "subscription": $input[1]}
       ]
