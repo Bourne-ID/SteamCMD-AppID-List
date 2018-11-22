@@ -111,24 +111,11 @@ jq -Rsn '
   }
 ' < tmuxallout.csv > tmuxallout.json
 
-# Merge the tmux files - not as easy as I first thought...
+# Merge the tmux files and generate CSV and MD files
 
 jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_appid.json tmuxallout.json > steamcmd_appid_anon.json
 cat steamcmd_appid_anon.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid_anon.json | jq -r '.' | md-table > steamcmd_appid.md
-# AppID ([0-9]{1,6})[\S\s]*?release state: (.*)$
 
-cat steamcmd_appid.md
-
-#for row in $( cat "${rootdir}/steamcmd_appid.json" | jq '.applist.apps[]' | jq -r '.appid'); do
-#    subscription=$("${rootdir}/steamcmd"/steamcmd.sh +login anonymous +app_status ${row} +exit | grep Subscribed | wc -l);
-#    if [ "${subscription}" == "1" ]; then
-#        echo "anonymous sub available: YES: ${row}";
-#    else
-#    	echo "anonymous sub available: NO: ${row}";
-#    fi
-#done
-
-#later we do jq merge on appid index
 echo "exit"
 exit
