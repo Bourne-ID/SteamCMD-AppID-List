@@ -29,6 +29,7 @@ before_script:
 - export PATH=$HOME/tmux/bin:$PATH
 - cd ..
 - tmux -V
+- rm -r tmux
 - wget https://ftp.pcre.org/pub/pcre/pcre2-10.32.zip
 - unzip pcre2-10.32.zip
 - cd pcre2-10.32
@@ -38,6 +39,8 @@ before_script:
 - sudo /sbin/ldconfig
 - cd ..
 - pcre2grep -V
+- rm pcre2-10.32.zip
+- rm -r pcre2-10.32
 script:
   - bash ./steamcmd_appid.sh
 
