@@ -12,9 +12,9 @@ echo "Creating steamcmd_appid.json"
 curl https://api.steampowered.com/ISteamApps/GetAppList/v2/ | jq -r '.' > steamcmd_appid.json
 echo "Creating steamcmd_appid.xml"
 curl https://api.steampowered.com/ISteamApps/GetAppList/v2/?format=xml > steamcmd_appid.xml
-echo "Creating steamcmd_appid.csv"
-cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid, .name] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
+# echo "Creating steamcmd_appid.csv"
+# cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid, .name] | @csv' > steamcmd_appid.csv
+# cat steamcmd_appid.json | jq '.applist[]' | md-table > steamcmd_appid.md
 
 # prep the tmux command file for steamcmd
 cat steamcmd_appid.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
@@ -111,10 +111,14 @@ jq -Rsn '
 
 # Merge the tmux files and generate CSV and MD files
 
-jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_appid.json tmuxallout.json > steamcmd_appid_anon_servers.json
-cat steamcmd_appid_anon_servers.json | jq '.[] |  select(.subscription == "released (Subscribed,Permanent,)") ' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid_anon_servers.csv
+jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_appid.json tmuxallout.json > steamcmd_appid.json
+cat steamcmd_app.json | jq '.[] |  select(.subscription == "released (Subscribed,Permanent,)") ' > steamcmd_appid_anon_servers.json
+cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -r '.' | md-table > steamcmd_appid_anon_servers.md
 
+echo "Creating steamcmd_appid.csv"
+cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+cat steamcmd_appid.json | jq '.[]' | md-table > steamcmd_appid.md
 # Clean up
 rm tmux*
 
