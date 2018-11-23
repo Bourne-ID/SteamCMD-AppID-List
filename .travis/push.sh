@@ -10,9 +10,9 @@ git add steamcmd_appid.json
 git add steamcmd_appid.xml
 git add steamcmd_appid.csv
 git add steamcmd_appid.md
-git add steamcmd_appid_anon_server.json
-git add steamcmd_appid_anon_server.csv
-git add steamcmd_appid_anon_server.md
+git add steamcmd_appid_anon_servers.json
+git add steamcmd_appid_anon_servers.csv
+git add steamcmd_appid_anon_servers.md
 git commit --message "Travis build: $(date +%Y-%m-%d)"
 
 
