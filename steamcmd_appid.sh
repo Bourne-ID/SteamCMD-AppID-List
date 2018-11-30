@@ -6,8 +6,6 @@
 # Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
 # env var TMUX_SESSIONS should be set.
 
-TMUX_SESSIONS=4
-
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
 echo "Creating steamcmd_appid.json"
