@@ -13,7 +13,9 @@ git add steamcmd_appid.md
 git add steamcmd_appid_anon_servers.json
 git add steamcmd_appid_anon_servers.csv
 git add steamcmd_appid_anon_servers.md
-git commit --message "Travis build: $(date +%Y-%m-%d)"
+git add 'tmux*'
+git add steamcmd_getapplist.json
+git commit --message "Travis Debug build: $(date +%Y-%m-%d)"
 
 
 git push --set-upstream origin ${TRAVIS_BRANCH}

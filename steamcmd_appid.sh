@@ -120,9 +120,6 @@ echo "Creating steamcmd_appid.csv"
 cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid.md
 
-# Clean up
-rm tmux*
-rm steamcmd_getapplist.json
 
 echo "exit"
 exit
