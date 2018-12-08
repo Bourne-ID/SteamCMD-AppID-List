@@ -112,6 +112,10 @@ jq -Rsn '
 # Merge the tmux files and generate CSV and MD files
 
 jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_getapplist.json tmuxallout.json > steamcmd_appid.json
+
+# Analyse licences and add additional OS/licence information
+# Attempt 1: cat and edit
+cat steamcmd_appid.json | jq '.[] | .linux = (.subscription | contains("Invalid Platform") | not )' > steamcmd_appid.sh
 cat steamcmd_appid.json | jq '.[] |  select(.subscription == "released (Subscribed,Permanent,)") ' > steamcmd_appid_anon_servers.json
 cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -s '.' | md-table > steamcmd_appid_anon_servers.md
@@ -123,3 +127,11 @@ cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid.md
 
 echo "exit"
 exit
+
+# random workings
+
+# cat steamcmd_appid.json | jq '.[] | if select (.name | contains("Invalid Platform")) then .linux |= false else .linux |= true'
+
+# cat steamcmd_appid.json | jq '.[] | select (.name | ascii_upcase | contains("SERVER")) |
+
+# . | .server = (.name | ascii_upcase | contains("SERVER")) 
