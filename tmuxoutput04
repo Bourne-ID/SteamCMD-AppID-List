@@ -2,26 +2,29 @@ Redirecting stderr to '/home/travis/Steam/logs/stderr.txt'
 Looks like steam didn't shutdown cleanly, scheduling immediate update check
 ILocalize::AddFile() failed to load file "public/steambootstrapper_english.txt".
 [  0%] Checking for available update...
-[----] Downloading update (0 of 13,244 KB)...
-[  0%] Downloading update (602 of 13,244 KB)...
-[  4%] Downloading update (1,887 of 13,244 KB)...
-[ 14%] Downloading update (3,032 of 13,244 KB)...
-[ 22%] Downloading update (3,788 of 13,244 KB)...
-[ 28%] Downloading update (4,484 of 13,244 KB)...
-[ 33%] Downloading update (5,117 of 13,244 KB)...
-[ 38%] Downloading update (5,749 of 13,244 KB)...
-[ 43%] Downloading update (6,445 of 13,244 KB)...
-[ 48%] Downloading update (7,077 of 13,244 KB)...
-[ 53%] Downloading update (7,710 of 13,244 KB)...
-[ 58%] Downloading update (8,406 of 13,244 KB)...
-[ 63%] Downloading update (9,038 of 13,244 KB)...
-[ 68%] Downloading update (9,671 of 13,244 KB)...
-[ 73%] Downloading update (10,366 of 13,244 KB)...
-[ 78%] Downloading update (10,999 of 13,244 KB)...
-[ 83%] Downloading update (11,631 of 13,244 KB)...
-[ 87%] Downloading update (12,327 of 13,244 KB)...
-[ 93%] Downloading update (12,949 of 13,244 KB)...
-[ 97%] Downloading update (13,244 of 13,244 KB)...
+[----] Downloading update (0 of 13,269 KB)...
+[  0%] Downloading update (467 of 13,269 KB)...
+[  3%] Downloading update (1,463 of 13,269 KB)...
+[ 11%] Downloading update (2,589 of 13,269 KB)...
+[ 19%] Downloading update (3,298 of 13,269 KB)...
+[ 24%] Downloading update (3,859 of 13,269 KB)...
+[ 29%] Downloading update (4,437 of 13,269 KB)...
+[ 33%] Downloading update (4,990 of 13,269 KB)...
+[ 37%] Downloading update (5,525 of 13,269 KB)...
+[ 41%] Downloading update (6,124 of 13,269 KB)...
+[ 46%] Downloading update (6,634 of 13,269 KB)...
+[ 49%] Downloading update (7,165 of 13,269 KB)...
+[ 53%] Downloading update (7,769 of 13,269 KB)...
+[ 58%] Downloading update (8,291 of 13,269 KB)...
+[ 62%] Downloading update (8,805 of 13,269 KB)...
+[ 66%] Downloading update (9,413 of 13,269 KB)...
+[ 70%] Downloading update (9,936 of 13,269 KB)...
+[ 74%] Downloading update (10,543 of 13,269 KB)...
+[ 79%] Downloading update (11,062 of 13,269 KB)...
+[ 83%] Downloading update (11,609 of 13,269 KB)...
+[ 87%] Downloading update (12,182 of 13,269 KB)...
+[ 91%] Downloading update (12,731 of 13,269 KB)...
+[ 95%] Downloading update (13,269 of 13,269 KB)...
 [100%] Download Complete.
 [----] Applying update...
 [----] Extracting package...
@@ -59,37 +62,43 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 [1m
 Steam>[0mapp_status 873160
 app_status 873180
-app_status 873200
 AppID 873150: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873210
+Steam>[0mapp_status 873200
+app_status 873210
 app_status 873220
-app_status 873230
 AppID 873160: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873240
+Steam>[0mapp_status 873230
+app_status 873240
 app_status 873250
 app_status 873280
-app_status 873290
 AppID 873180: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873300
+Steam>[0mapp_status 873290
+app_status 873300
 app_status 873310
-app_status 873320
-app_status 873330
 AppID 873200: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 873320
+app_status 873330
+AppID 873210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -98,49 +107,49 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 873340
 app_status 873360
 app_status 873380
-AppID 873210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 873390
+app_status 873390
 app_status 873400
-app_status 873410
-app_status 873470
 AppID 873220: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873490
+Steam>[0mapp_status 873410
+app_status 873470
+app_status 873490
 app_status 873500
 app_status 873540
-app_status 873541
-app_status 873560
 AppID 873230: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873570
-app_status 873580
-app_status 872560
-app_status 872580
-app_status 872590
+Steam>[0mapp_status 873541
+app_status 873560
+app_status 873570
 AppID 873240: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872600
-app_status 872610
+Steam>[0mapp_status 873580
+app_status 872560
+app_status 872580
+app_status 872590
+app_status 872600
+AppID 873250: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 872610
 app_status 872640
 app_status 872650
-AppID 873250: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 873280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -151,7 +160,7 @@ app_status 872690
 app_status 872700
 app_status 872730
 app_status 872750
-AppID 873280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 873290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -159,43 +168,37 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 [1m
 Steam>[0mapp_status 872770
 app_status 872970
-AppID 873290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 872980
+app_status 872980
 app_status 872990
-app_status 873030
-app_status 873040
 AppID 873300: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 873050
+Steam>[0mapp_status 873030
+app_status 873040
+app_status 873050
 app_status 873070
-app_status 873100
-app_status 873120
-app_status 872060
 AppID 873310: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872090
-app_status 872100
-app_status 872110
+Steam>[0mapp_status 873100
+app_status 873120
+app_status 872060
+app_status 872090
 AppID 873320: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872120
+Steam>[0mapp_status 872100
+app_status 872110
+app_status 872120
 app_status 872140
 app_status 872170
 AppID 873330: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
@@ -218,145 +221,139 @@ Steam>[0mapp_status 872240
 app_status 872250
 app_status 872260
 app_status 872290
+app_status 872300
 AppID 873360: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872300
-app_status 872310
+Steam>[0mapp_status 872310
 app_status 872330
+app_status 872340
+app_status 872350
 AppID 873380: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872340
-app_status 872350
-app_status 872360
+Steam>[0mapp_status 872360
 app_status 872370
+app_status 872380
+app_status 872390
 AppID 873390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872380
-app_status 872390
-app_status 872400
+Steam>[0mapp_status 872400
 app_status 872420
+app_status 872430
 AppID 873400: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872430
-app_status 872440
+Steam>[0mapp_status 872440
 app_status 872490
+app_status 872500
 AppID 873410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872500
-app_status 872520
+Steam>[0mapp_status 872520
 app_status 872530
+app_status 872540
+app_status 872550
 AppID 873470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872540
-app_status 872550
-app_status 871550
+Steam>[0mapp_status 871550
+app_status 871570
+app_status 871580
 AppID 873490: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871570
-app_status 871580
-app_status 871590
+Steam>[0mapp_status 871590
 app_status 871600
+app_status 871620
+app_status 871630
+app_status 871650
 AppID 873500: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871620
-app_status 871630
-app_status 871650
-app_status 871670
+Steam>[0mapp_status 871670
 app_status 871710
+app_status 871720
 AppID 873540: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871720
-app_status 871850
+Steam>[0mapp_status 871850
 app_status 871860
 app_status 871870
+app_status 871920
+app_status 871940
 AppID 873541: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871920
-app_status 871940
-app_status 871950
+Steam>[0mapp_status 871950
 app_status 871970
+app_status 872000
+app_status 872040
+app_status 872050
 AppID 873560: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 872000
-app_status 872040
-app_status 872050
-app_status 871070
+Steam>[0mapp_status 871070
 app_status 871080
 app_status 871081
+app_status 871082
 AppID 873570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871082
-app_status 871100
+Steam>[0mapp_status 871100
 app_status 871140
 app_status 871150
 app_status 871170
+app_status 871180
 AppID 873580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871180
-app_status 871220
+Steam>[0mapp_status 871220
 app_status 871230
-AppID 872560: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 871240
+app_status 871240
 app_status 871241
+AppID 872560: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 app_status 871250
-AppID 872580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -366,7 +363,7 @@ Steam>[0mapp_status 871260
 app_status 871270
 app_status 871290
 app_status 871300
-AppID 872590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -375,36 +372,30 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 871310
 app_status 871320
 app_status 871330
+app_status 871340
+app_status 871360
+AppID 872590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 871380
+app_status 871450
+app_status 871470
+app_status 871480
 AppID 872600: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871340
-app_status 871360
-app_status 871380
-app_status 871450
-AppID 872610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 871470
-app_status 871480
-app_status 871490
-AppID 872640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 871510
+Steam>[0mapp_status 871490
+app_status 871510
 app_status 871530
 app_status 870740
 app_status 870750
-AppID 872650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -413,26 +404,20 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 870760
 app_status 870780
 app_status 870800
-AppID 872680: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 870810
+AppID 872640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870810
-app_status 870820
+Steam>[0mapp_status 870820
 app_status 870830
-AppID 872690: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870890
+app_status 870890
 app_status 870900
 app_status 870920
 app_status 870940
-AppID 872700: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -442,18 +427,18 @@ Steam>[0mapp_status 870960
 app_status 870970
 app_status 870990
 app_status 871030
-app_status 871031
-AppID 872730: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872680: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 871040
+Steam>[0mapp_status 871031
+app_status 871040
 app_status 871041
 app_status 871050
 app_status 871051
-AppID 872750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872690: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -462,37 +447,31 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 871060
 app_status 870343
 app_status 870344
-AppID 872770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 870345
+app_status 870346
+AppID 872700: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870345
-app_status 870346
-app_status 870347
+Steam>[0mapp_status 870347
 app_status 870348
 app_status 870349
-AppID 872970: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 870350
+AppID 872730: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870350
-app_status 870351
+Steam>[0mapp_status 870351
 app_status 870420
-AppID 872980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870430
+app_status 870430
 app_status 870450
 app_status 870460
 app_status 870461
-AppID 872990: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -502,104 +481,104 @@ Steam>[0mapp_status 870462
 app_status 870470
 app_status 870490
 app_status 870500
+app_status 870510
+AppID 872770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 870520
+app_status 870570
+app_status 870580
+AppID 872970: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 870590
+app_status 870600
+app_status 870610
+app_status 870620
+app_status 870621
+AppID 872980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 870630
+app_status 870640
+app_status 870650
+app_status 870670
+app_status 870680
+AppID 872990: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 870710
+app_status 870720
+app_status 870240
+app_status 870260
+app_status 870270
+app_status 870271
 AppID 873030: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870510
-app_status 870520
-app_status 870570
-app_status 870580
-app_status 870590
+Steam>[0mapp_status 870272
+app_status 870273
+app_status 870274
+app_status 870290
+app_status 870300
 AppID 873040: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870600
-app_status 870610
-app_status 870620
-app_status 870621
-app_status 870630
-app_status 870640
+Steam>[0mapp_status 870310
+app_status 870320
+app_status 870321
+app_status 870322
 AppID 873050: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870650
-app_status 870670
-app_status 870680
-app_status 870710
-app_status 870720
-app_status 870240
+Steam>[0mapp_status 870323
+app_status 870324
+app_status 870325
+app_status 870326
+app_status 870327
 AppID 873070: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870260
-app_status 870270
-app_status 870271
-app_status 870272
-app_status 870273
+Steam>[0mapp_status 870328
+app_status 870329
+app_status 870330
+app_status 870331
+app_status 870340
 AppID 873100: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870274
-app_status 870290
-app_status 870300
-app_status 870310
-AppID 873120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870320
-app_status 870321
-app_status 870322
-app_status 870323
-app_status 870324
-AppID 872060: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870325
-app_status 870326
-app_status 870327
-app_status 870328
-AppID 872090: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870329
-app_status 870330
-app_status 870331
-app_status 870340
-app_status 870341
-AppID 872100: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 870342
+Steam>[0mapp_status 870341
+app_status 870342
 app_status 870000
 app_status 870010
-AppID 872110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 873120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -608,28 +587,28 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 870020
 app_status 870030
 app_status 870040
-AppID 872120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 870080
+AppID 872060: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870080
-app_status 870090
+Steam>[0mapp_status 870090
 app_status 870100
 app_status 870110
-AppID 872140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 870140
+AppID 872090: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 870140
-app_status 870150
+Steam>[0mapp_status 870150
 app_status 870160
 app_status 870180
 app_status 870190
-AppID 872170: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872100: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -638,18 +617,18 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 870200
 app_status 869530
 app_status 869540
-AppID 872180: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 869550
+app_status 869560
+AppID 872110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 869550
-app_status 869560
-app_status 869570
+Steam>[0mapp_status 869570
 app_status 869580
 app_status 869590
-AppID 872190: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -658,25 +637,19 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 869660
 app_status 869670
 app_status 869680
-AppID 872210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 869700
+AppID 872140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 869700
-app_status 869740
+Steam>[0mapp_status 869740
 app_status 869780
 app_status 869790
-AppID 872230: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 869830
+app_status 869830
 app_status 869840
-AppID 872240: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872170: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -686,20 +659,26 @@ Steam>[0mapp_status 869850
 app_status 869860
 app_status 869870
 app_status 869910
-app_status 869930
-app_status 869060
-AppID 872250: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872180: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 869080
-app_status 869090
+Steam>[0mapp_status 869930
+app_status 869060
+app_status 869080
+AppID 872190: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 869090
 app_status 869100
 app_status 869110
 app_status 869140
-AppID 872260: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -708,16 +687,10 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 Steam>[0mapp_status 869160
 app_status 869170
 app_status 869180
-AppID 872290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 869210
+app_status 869210
 app_status 869230
 app_status 869240
-AppID 872300: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+AppID 872230: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -727,102 +700,132 @@ Steam>[0mapp_status 869241
 app_status 869250
 app_status 869270
 app_status 869280
+app_status 869290
+app_status 869300
+AppID 872240: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 869320
+app_status 869330
+app_status 869340
+AppID 872250: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 869350
+app_status 869410
+app_status 869430
+app_status 869460
+AppID 872260: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 869470
+app_status 869500
+app_status 868622
+app_status 868623
+AppID 872290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 868624
+app_status 868625
+app_status 868626
+AppID 872300: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mapp_status 868627
+app_status 868628
+app_status 868629
+app_status 868630
+app_status 868631
+app_status 868650
 AppID 872310: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 869290
-app_status 869300
-app_status 869320
-app_status 869330
+Steam>[0mapp_status 868660
+app_status 868670
+app_status 868680
 AppID 872330: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 869340
-app_status 869350
-app_status 869410
-AppID 872340: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 869430
-app_status 869460
-app_status 869470
-app_status 869500
-AppID 872350: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 868622
-app_status 868623
-app_status 868624
-AppID 872360: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 868625
-app_status 868626
-app_status 868627
-app_status 868628
-AppID 872370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 868629
-app_status 868630
-app_status 868631
-AppID 872380: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 868650
-app_status 868660
-app_status 868670
-app_status 868680
-app_status 868710
-AppID 872390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0mapp_status 868720
+Steam>[0mapp_status 868710
+app_status 868720
 app_status 868740
-app_status 868750
-app_status 868760
-AppID 872400: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 872340: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 868770
-app_status 868780
-app_status 868790
-app_status 868820
-AppID 872420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 868750
+app_statuAppID 872350: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mapp_status 868830
-app_status 868870
+Steam>[0ms 868760
+app_statuAppID 872360: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868770
+app_statuAppID 872370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868780
+app_statuAppID 872380: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868790
+app_statuAppID 872390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868820
+app_statuAppID 872400: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868830
+app_statuAppID 872420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 868870
 app_statuAppID 872430: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -2362,84 +2365,84 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865670
-app_statuAppID 868750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 868750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865720
+Steam>[0ms 865670
 app_statuAppID 868760: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865740
+Steam>[0ms 865720
 app_statuAppID 868770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865750
+Steam>[0ms 865740
 app_statuAppID 868780: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865760
+Steam>[0ms 865750
 app_statuAppID 868790: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865770
+Steam>[0ms 865760
 app_statuAppID 868820: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865780
+Steam>[0ms 865770
 app_statuAppID 868830: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865800
+Steam>[0ms 865780
 app_statuAppID 868870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865810
+Steam>[0ms 865800
 app_statuAppID 868890: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865840
+Steam>[0ms 865810
 app_statuAppID 868900: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865860
+Steam>[0ms 865840
 app_statuAppID 868910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 865870
+Steam>[0ms 865860
+app_status 865870
 app_statuAppID 868920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -2544,9 +2547,9 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 868390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-s 865050
-app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 865050
+app_statuAppID 868390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -2684,196 +2687,196 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864500
-app_statuAppID 868580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 868580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864510
+Steam>[0ms 864500
 app_statuAppID 868600: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864520
+Steam>[0ms 864510
 app_statuAppID 868610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864530
+Steam>[0ms 864520
 app_statuAppID 868620: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864540
+Steam>[0ms 864530
 app_statuAppID 868621: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864550
+Steam>[0ms 864540
 app_statuAppID 867890: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864560
+Steam>[0ms 864550
 app_statuAppID 867910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864570
+Steam>[0ms 864560
 app_statuAppID 867920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864590
+Steam>[0ms 864570
 app_statuAppID 867930: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864600
+Steam>[0ms 864590
 app_statuAppID 867940: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864610
+Steam>[0ms 864600
 app_statuAppID 867941: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864660
+Steam>[0ms 864610
 app_statuAppID 867942: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864670
+Steam>[0ms 864660
 app_statuAppID 867943: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864700
+Steam>[0ms 864670
 app_statuAppID 867944: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864710
+Steam>[0ms 864700
 app_statuAppID 867945: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864720
+Steam>[0ms 864710
 app_statuAppID 867946: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864740
+Steam>[0ms 864720
 app_statuAppID 867947: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864750
+Steam>[0ms 864740
 app_statuAppID 867948: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864760
+Steam>[0ms 864750
 app_statuAppID 867949: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864780
+Steam>[0ms 864760
 app_statuAppID 867950: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864810
+Steam>[0ms 864780
 app_statuAppID 867951: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864820
+Steam>[0ms 864810
 app_statuAppID 867980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864850
+Steam>[0ms 864820
 app_statuAppID 867990: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864860
+Steam>[0ms 864850
 app_statuAppID 868000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864080
+Steam>[0ms 864860
 app_statuAppID 868010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864100
+Steam>[0ms 864080
 app_statuAppID 868030: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864110
+Steam>[0ms 864100
 app_statuAppID 868040: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 864130
+Steam>[0ms 864110
+app_status 864130
 app_statuAppID 868070: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -3692,7 +3695,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 862915
@@ -4689,336 +4692,336 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 864410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 860710
+app_statuAppID 864410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 860710
-app_status 860720
+Steam>[0ms 860720
 app_statuAppID 864420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 864430: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 860730
-app_statuAppID 863570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 864430: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860750
-app_statuAppID 863580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860770
-app_statuAppID 863590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860790
-app_statuAppID 863610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860820
-app_statuAppID 863620: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860840
-app_statuAppID 863640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863620: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860850
-app_statuAppID 863650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860860
-app_statuAppID 863660: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860870
-app_statuAppID 863670: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863660: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860880
-app_statuAppID 863680: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863670: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860900
-app_statuAppID 863681: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863680: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860930
-app_statuAppID 863690: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863681: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860940
-app_statuAppID 863700: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863690: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860950
-app_statuAppID 863720: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863700: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860070
-app_statuAppID 863730: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863720: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860080
-app_statuAppID 863740: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863730: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860090
-app_statuAppID 863750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863740: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860100
-app_statuAppID 863760: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860110
-app_statuAppID 863770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863760: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860120
-app_statuAppID 863780: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860130
-app_statuAppID 863790: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863780: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860140
-app_statuAppID 863810: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863790: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860150
-app_statuAppID 863820: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863810: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860160
-app_statuAppID 863870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863820: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860190
-app_statuAppID 863880: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860200
-app_statuAppID 863900: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863880: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860220
-app_statuAppID 863910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863900: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860230
-app_statuAppID 863920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860231
-app_statuAppID 863930: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860232
-app_statuAppID 863960: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863930: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860233
-app_statuAppID 863980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863960: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860240
-app_statuAppID 864010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860250
-app_statuAppID 864020: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 864010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860260
-app_statuAppID 864040: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 864020: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860270
-app_statuAppID 864050: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 864040: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860280
-app_statuAppID 863110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 864050: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860290
-app_statuAppID 863120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860320
-app_statuAppID 863140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863120: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860330
-app_statuAppID 863160: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860340
-app_statuAppID 863180: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863160: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860350
-app_statuAppID 863181: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863180: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860360
-app_status 860380
+app_statuAppID 863181: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 860380
 app_statuAppID 863182: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 863190: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 860390
-app_statuAppID 863210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 863190: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 860400
-app_status 860430
+app_statuAppID 863210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 860430
 app_statuAppID 863220: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -7097,7 +7100,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 856070
@@ -7163,21 +7166,21 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 859130: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 855420
-app_statuAppID 859140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 859130: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 855430
-app_status 855440
+app_statuAppID 859140: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 855440
 app_statuAppID 859150: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -9501,168 +9504,168 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 853860: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 851270
-app_statuAppID 853870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853860: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 851271
-app_statuAppID 853871: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 851272
-app_statuAppID 853872: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853871: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 851273
-app_statuAppID 853873: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853872: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 851274
-app_statuAppID 853874: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853873: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850483
-app_statuAppID 853875: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853874: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850484
-app_statuAppID 853876: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853875: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850485
-app_statuAppID 853877: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853876: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850486
-app_statuAppID 853881: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853877: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850487
-app_statuAppID 853882: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853881: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850488
-app_statuAppID 853883: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853882: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850489
-app_status 850490
+app_statuAppID 853883: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 850490
 app_statuAppID 853884: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 853885: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 850491
-app_statuAppID 853886: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853885: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850492
-app_statuAppID 853887: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853886: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850493
-app_statuAppID 853890: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853887: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850494
-app_statuAppID 853900: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853890: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850495
-app_statuAppID 853940: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853900: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850496
-app_statuAppID 853980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853940: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850497
-app_statuAppID 854030: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850498
-app_status 850500
+app_statuAppID 854030: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 850500
 app_statuAppID 854050: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 853460: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 850530
+app_statuAppID 853460: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850530
-app_status 850540
+Steam>[0ms 850540
 app_statuAppID 853480: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -9676,27 +9679,27 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 853500: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 850560
-app_statuAppID 853530: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 853500: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 850570
+app_statuAppID 853530: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 850580
 app_statuAppID 853531: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
-s 850580
-app_statu[1m
+[1m
 Steam>[0ms 850600
 app_statuAppID 853532: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
@@ -9991,14 +9994,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850350
-app_statuAppID 853200: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 853200: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850360
+Steam>[0ms 850350
+app_status 850360
 app_statuAppID 853210: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -10033,20 +10036,20 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850410
-app_statuAppID 853260: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 853260: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850420
+Steam>[0ms 850410
 app_statuAppID 853280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
-[1m
+s 850420
+app_statu[1m
 Steam>[0ms 850430
 app_statuAppID 853281: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
@@ -10061,23 +10064,23 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850450
-app_statuAppID 853290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 853290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850470
+Steam>[0ms 850450
 app_statuAppID 853300: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850480
+Steam>[0ms 850470
 app_statuAppID 853360: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 850480
+app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -10089,128 +10092,128 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 850482
-app_statuAppID 853380: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 853380: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849530
+Steam>[0ms 850482
 app_statuAppID 853390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849540
+Steam>[0ms 849530
 app_statuAppID 853410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849550
+Steam>[0ms 849540
 app_statuAppID 853440: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849560
+Steam>[0ms 849550
 app_statuAppID 852590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849570
+Steam>[0ms 849560
 app_statuAppID 852610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849600
+Steam>[0ms 849570
 app_statuAppID 852620: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849620
+Steam>[0ms 849600
 app_statuAppID 852630: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849630
+Steam>[0ms 849620
 app_statuAppID 852640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849670
+Steam>[0ms 849630
 app_statuAppID 852650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849680
+Steam>[0ms 849670
 app_statuAppID 852660: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849690
+Steam>[0ms 849680
 app_statuAppID 852710: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849700
+Steam>[0ms 849690
 app_statuAppID 852720: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849740
+Steam>[0ms 849700
 app_statuAppID 852740: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849750
+Steam>[0ms 849740
 app_statuAppID 852750: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849760
+Steam>[0ms 849750
 app_statuAppID 852760: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849790
+Steam>[0ms 849760
 app_statuAppID 852770: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 849790
+app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 849800
-app_statuAppID 852790: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 852790: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 849800
+app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -11461,14 +11464,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 850110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 847400
+app_statuAppID 850110: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-s 847Steam>[0m400
-app_status 847410
+Steam>[0ms 847410
 app_statuAppID 850130: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -11846,126 +11849,126 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847290
-app_statuAppID 849910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849910: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847300
+Steam>[0ms 847290
 app_statuAppID 849920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847310
+Steam>[0ms 847300
 app_statuAppID 849930: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847320
+Steam>[0ms 847310
 app_statuAppID 849931: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847321
+Steam>[0ms 847320
 app_statuAppID 849940: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847322
+Steam>[0ms 847321
 app_statuAppID 849950: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847323
+Steam>[0ms 847322
 app_statuAppID 849970: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847324
+Steam>[0ms 847323
 app_statuAppID 849980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847325
+Steam>[0ms 847324
 app_statuAppID 850000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847326
+Steam>[0ms 847325
 app_statuAppID 850010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847327
+Steam>[0ms 847326
+app_status 847327
 app_statuAppID 849230: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847328
-app_statuAppID 849240: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849240: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847329
+Steam>[0ms 847328
 app_statuAppID 849260: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847330
+Steam>[0ms 847329
+app_status 847330
 app_statuAppID 849261: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847331
-app_statuAppID 849262: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849262: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847332
+Steam>[0ms 847331
+app_status 847332
 app_statuAppID 849270: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847064
-app_statuAppID 849280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847065
+Steam>[0ms 847064
+app_status 847065
 app_statuAppID 849300: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -11979,23 +11982,23 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847067
-app_statuAppID 849320: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849320: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847068
+Steam>[0ms 847067
 app_statuAppID 849330: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847069
+Steam>[0ms 847068
 app_statuAppID 849350: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 847069
+app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -12007,84 +12010,84 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
+Steam>[0mAppID 849370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
 Steam>[0ms 847071
-app_statuAppID 849370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 849390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()s 847072
+app_statu
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847072
-app_statuAppID 849390: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
+s 847073
+app_statu
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847073
-app_statuAppID 849410: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 847074
-app_statuAppID 849420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0ms 847075
 app_statuAppID 849520: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
+s 847075
+app_statu - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0mAppID 848970: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 847076
+app_statu
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847076
-app_statuAppID 848970: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 848980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
-[1m
-Steam>[0ms 847077
-app_statuAppID 848980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 847077
+app_statu[1m
+Steam>[0mAppID 848990: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 847078
-app_statuAppID 848990: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 848991: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
+s 847079
+app_statu
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847079
-app_statuAppID 848991: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 849000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 847080
-app_statuAppID 849000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
-Steam>[0ms 847081
 app_statuAppID 849010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 847090
+Steam>[0ms 847081
+app_status 847090
 app_statuAppID 849040: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -12665,7 +12668,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 934600
@@ -13753,14 +13756,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 932520
-app_statuAppID 847128: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 847128: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 932540
+Steam>[0ms 932520
+app_status 932540
 app_statuAppID 847129: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -14005,14 +14008,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 932160
-app_statuAppID 935610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 935610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 932170
+Steam>[0ms 932160
+app_status 932170
 app_statuAppID 935660: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -14327,7 +14330,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 930985
@@ -15716,112 +15719,112 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927240
-app_statuAppID 931470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 931470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927270
+Steam>[0ms 927240
 app_statuAppID 931490: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927310
+Steam>[0ms 927270
 app_statuAppID 931500: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927320
+Steam>[0ms 927310
 app_statuAppID 931540: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927330
+Steam>[0ms 927320
 app_statuAppID 931560: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927370
+Steam>[0ms 927330
 app_statuAppID 931570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927460
+Steam>[0ms 927370
 app_statuAppID 931590: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927470
+Steam>[0ms 927460
 app_statuAppID 931600: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927480
+Steam>[0ms 927470
 app_statuAppID 931610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927490
+Steam>[0ms 927480
 app_statuAppID 931620: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 927590
+Steam>[0ms 927490
 app_statuAppID 931630: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 926800
+Steam>[0ms 927590
 app_statuAppID 931640: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 926810
+Steam>[0ms 926800
 app_statuAppID 931650: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 926820
+Steam>[0ms 926810
 app_statuAppID 931670: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 926830
+Steam>[0ms 926820
 app_statuAppID 931700: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 926850
+Steam>[0ms 926830
+app_status 926850
 app_statuAppID 931720: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -16535,14 +16538,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 929191: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 924710
+app_statuAppID 929191: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 924710
-app_status 924730
+Steam>[0ms 924730
 app_statuAppID 929192: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -16584,14 +16587,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 929280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 924830
+app_statuAppID 929280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 924830
-app_status 924900
+Steam>[0ms 924900
 app_statuAppID 929290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -16654,49 +16657,49 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 929420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 925040
-app_statuAppID 929430: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929420: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 925050
-app_statuAppID 929440: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929430: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 925060
-app_statuAppID 929450: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929440: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 925070
-app_statuAppID 929460: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929450: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 924280
-app_statuAppID 929470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929460: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 924310
-app_status 924330
+app_statuAppID 929470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 924330
 app_statuAppID 929480: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -16738,10 +16741,10 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 928780: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 924380
+app_statuAppID 928780: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-s 924380
-app_statu
+
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
@@ -16787,14 +16790,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 928870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 924472
+app_statuAppID 928870: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 924472
-app_status 924473
+Steam>[0ms 924473
 app_statuAppID 928920: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -16815,30 +16818,30 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 928980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 924476
-app_statuAppID 929000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 928980: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 924477
-app_statuAppID 929010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 929000: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 924478
+app_statuAppID 929010: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 924479
 app_statuAppID 929020: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-s 924479
-app_statuconfigstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -17746,7 +17749,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: prerelease (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 922600
@@ -20493,63 +20496,63 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 920342: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
- - release state: unknown (No License)
- - install state: uninstalled
-[1m
 Steam>[0ms 917537
-app_statuAppID 920350: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920342: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917538
-app_statuAppID 920351: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920350: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917539
-app_statuAppID 920352: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920351: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917540
-app_statuAppID 920370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920352: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917541
-app_statuAppID 920371: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920370: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917550
-app_statuAppID 920372: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920371: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917590
-app_statuAppID 920373: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_statuAppID 920372: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0ms 917600
-app_status 917630
+app_statuAppID 920373: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+
+ - release state: unknown (No License)
+ - install state: uninstalled
+[1m
+Steam>[0ms 917630
 app_statuAppID 920374: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -20563,14 +20566,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 920376: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 917680
+app_statuAppID 920376: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 917680
-app_status 917690
+Steam>[0ms 917690
 app_statuAppID 920377: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -20864,7 +20867,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 917455
@@ -30561,18 +30564,18 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0m0
-app_status 1903AppID 22812: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 22812: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0m0
-app_status 1906AppID 22813: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+app_status 1903AppID 22813: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
- - release state: unknown (No License)
+0
+app_status 1906 - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32423,7 +32426,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32909,7 +32912,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32919,7 +32922,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32929,7 +32932,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32946,7 +32949,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32963,7 +32966,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32973,7 +32976,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -32983,7 +32986,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m9
@@ -32993,7 +32996,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -33003,7 +33006,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -33041,7 +33044,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0
@@ -33534,9 +33537,9 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 15992: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-0
-app_status 1107configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0m0
+app_status 1107AppID 15992: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -33548,9 +33551,9 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 16002: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-0
-app_status 1109configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0m0
+app_status 1109AppID 16002: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
@@ -36965,14 +36968,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0m
-app_status 5794AppID 6570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 6570: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
 Steam>[0m
+app_status 5794
 app_status 5795AppID 6580: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -45712,7 +45715,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m40
@@ -46639,7 +46642,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m 941010
@@ -46704,7 +46707,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0mpp_status 94114AppID 576: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
@@ -46877,7 +46880,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m4
@@ -46901,7 +46904,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0mtus 940737
@@ -46911,7 +46914,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0mstatus 940738
@@ -46968,7 +46971,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m80
@@ -47026,17 +47029,17 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 5: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mus 940030
+appAppID 5: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
-Steam>[0mus 940030
-app_status 940050AppID 50: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0m_status 940050AppID 50: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -47056,7 +47059,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0mus 940130
@@ -47079,7 +47082,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0m0150
@@ -47159,7 +47162,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 940340
@@ -47890,14 +47893,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 938550
-app_statuAppID 942280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 942280: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 938570
+Steam>[0ms 938550
+app_status 938570
 app_statuAppID 942290: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -47925,14 +47928,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 937690
-app_statuAppID 942352: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 942352: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 937730
+Steam>[0ms 937690
+app_status 937730
 app_statuAppID 942353: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -50697,7 +50700,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 401033
@@ -51449,7 +51452,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 400922
@@ -53636,14 +53639,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 400470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 397124
+app_statuAppID 400470: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 397124
-app_status 397125
+Steam>[0ms 397125
 app_statuAppID 400480: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -55372,14 +55375,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 393600
-app_statuAppID 396540: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 396540: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 393610
+Steam>[0ms 393600
+app_status 393610
 app_statuAppID 396560: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -55855,7 +55858,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 392880
@@ -57216,7 +57219,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 390620
@@ -59249,21 +59252,21 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 387690
-app_statuAppID 390310: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 390310: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 387700
+Steam>[0ms 387690
 app_statuAppID 390320: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 387740
+Steam>[0ms 387700
+app_status 387740
 app_statuAppID 390330: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -63428,7 +63431,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 379970
@@ -63865,7 +63868,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 379231
@@ -64267,7 +64270,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 378550
@@ -64571,7 +64574,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 378270
@@ -66002,7 +66005,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 375580
@@ -67559,21 +67562,21 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 373630
-app_statuAppID 375510: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 375510: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 373640
+Steam>[0ms 373630
 app_statuAppID 375520: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 373650
+Steam>[0ms 373640
+app_status 373650
 app_statuAppID 375530: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -69127,14 +69130,14 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0mAppID 373600: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0ms 370190
+app_statuAppID 373600: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 370190
-app_status 370200
+Steam>[0ms 370200
 app_statuAppID 373610: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
@@ -70646,7 +70649,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 368950
@@ -71664,7 +71667,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 366630
@@ -72094,7 +72097,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 365560
@@ -75219,7 +75222,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 360115
@@ -75635,7 +75638,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 360010
@@ -76212,7 +76215,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 358750
@@ -78532,7 +78535,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 354466
@@ -78556,7 +78559,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 353741
@@ -79721,7 +79724,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 352070
@@ -83154,10 +83157,10 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
-Steam>[0ms 346310
-app_statuAppID 349020: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+Steam>[0mAppID 349020: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
-
+s 346310
+app_statu
  - release state: unknown (No License)
  - install state: uninstalled
 [1m
@@ -84456,7 +84459,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 344130
@@ -84578,7 +84581,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 343600
@@ -86730,7 +86733,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 340980
@@ -86872,9 +86875,9 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
  - install state: uninstalled
-[1m
-Steam>[0ms 341260
-app_statuAppID 342795: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
+s 341260
+app_statu[1m
+Steam>[0mAppID 342795: configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (No License)
@@ -89610,7 +89613,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 335890
@@ -90222,7 +90225,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 334401
@@ -91051,7 +91054,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 333210
@@ -92888,7 +92891,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 330390
@@ -93276,7 +93279,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 329280
@@ -95078,7 +95081,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 326530
@@ -95270,7 +95273,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 326038
@@ -95371,7 +95374,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 326110
@@ -95836,7 +95839,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 325955
@@ -96126,7 +96129,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 325133
@@ -97830,7 +97833,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 321650
@@ -98036,7 +98039,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 321270
@@ -98046,7 +98049,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 321280
@@ -99596,7 +99599,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: unknown (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 318798
@@ -99683,7 +99686,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Invalid Platform,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 318860
@@ -99854,7 +99857,7 @@ configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 configstore.cpp (364) : Assertion Failed: GSteamEngine().IsEngineThreadRunning()
 
  - release state: released (Subscribed,Permanent,)
- - owner account: 479379574
+ - owner account: 721790044
  - install state: uninstalled
 [1m
 Steam>[0ms 318511
