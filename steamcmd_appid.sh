@@ -115,7 +115,8 @@ jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' stea
 
 # Analyse licences and add additional OS/licence information
 # Attempt 1: cat and edit
-cat steamcmd_appid.json | jq '.[] | .linux = (.subscription | contains("Invalid Platform") | not )' > steamcmd_appid.json
+cat steamcmd_appid.json | jq '.[] | .linux = (.subscription | contains("Invalid Platform") | not )' > steamcmd_appid.json$$
+mv steamcmd_appid.json$$ steamcmd_appid.json
 cat steamcmd_appid.json | jq '.[] |  select(.subscription == "released (Subscribed,Permanent,)") ' > steamcmd_appid_anon_servers.json
 cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -s '.' | md-table > steamcmd_appid_anon_servers.md
