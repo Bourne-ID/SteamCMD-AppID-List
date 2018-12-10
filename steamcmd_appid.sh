@@ -44,6 +44,7 @@ else
 fi
 
 # Start a tmux session for steamcmd, pipe to file and wait for steam prompt
+echo "Starting ${TMUX_SESSIONS} TMUX Sessions"
 cd "${rootdir}"
 for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
     tmux new -s "tmux${sessionid}" -d './steamcmd/steamcmd.sh +login anonymous' \; pipe-pane "cat > ./tmuxoutput${sessionid}"
@@ -90,6 +91,8 @@ else
     exit "2"
 fi
 
+echo "Processing OUtput from TMUX Sessions..."
+
 # Merge all tmux output to a single file
 for f in tmuxoutput*; do (cat "${f}"; echo) >> tmuxallout.txt; done
 
@@ -112,17 +115,21 @@ jq -Rsn '
 # Merge the tmux files and generate CSV and MD files
 
 jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' steamcmd_getapplist.json tmuxallout.json > steamcmd_appid.json
-cat steamcmd_appid.json | jq '.[] |  select(.subscription == "released (Subscribed,Permanent,)") ' > steamcmd_appid_anon_servers.json
+
+# Analyse licences and add additional OS/licence information
+
+echo "Creating Summary Files"
+
+cat steamcmd_appid.json | jq '.[] | .linux = (.subscription | contains("Invalid Platform") | not )' > steamcmd_appid.json$$
+mv steamcmd_appid.json$$ steamcmd_appid.json
+
+cat steamcmd_appid.json | jq '. |  select(.subscription == "released (Subscribed,Permanent,)") ' > steamcmd_appid_anon_servers.json
 cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -s '.' | md-table > steamcmd_appid_anon_servers.md
 
-echo "Creating steamcmd_appid.csv"
-cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+cat steamcmd_appid.json | jq '.' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
 cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid.md
 
-# Clean up
-rm tmux*
-rm steamcmd_getapplist.json
 
 echo "exit"
 exit
