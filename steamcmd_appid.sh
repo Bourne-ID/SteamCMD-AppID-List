@@ -176,8 +176,8 @@ mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
 
-cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.mdappid.md
+cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
 
 
 echo "exit"
