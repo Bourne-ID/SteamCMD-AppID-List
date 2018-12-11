@@ -6,7 +6,6 @@
 # Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
 # env var TMUX_SESSIONS should be set.
 
-TMUX_SESSIONS=6
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
 echo "Creating steamcmd_appid.json"
@@ -173,11 +172,11 @@ echo "Merging information"
 jq -s '[ .[0] + .[1] | group_by(.appid)[] | add]' steamcmd_appid_anon_servers.json tmuxwindows.json > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-cat steamcmd_appid_anon_servers.json | jq -r '[.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
+cat steamcmd_appid_anon_servers.json | jq '.[] | [.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
 cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
 
-cat steamcmd_appid.json | jq '.[]' | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
+cat steamcmd_appid.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid_anon_servers.md
 
 
 echo "exit"
