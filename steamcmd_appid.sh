@@ -183,9 +183,7 @@ cat steamcmd_appid_anon_servers.json | jq '.[] | .subscription = (.subscription 
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
 cat steamcmd_appid.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid_anon_servers.md
+cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid_servers.md
 
 echo "exit"
 exit
-
-# .[] | .subscription | sub("(?<vers>^.+ ).*"; .vers) | rtrimstr(" ")
