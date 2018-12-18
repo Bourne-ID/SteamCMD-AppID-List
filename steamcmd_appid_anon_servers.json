@@ -100,7 +100,7 @@
   "appid": 17500,
   "name": "Zombie Panic! Source",
   "subscription": "released",
-  "linux": false,
+  "linux": true,
   "windows": true
 }
 {
@@ -2234,6 +2234,13 @@
 {
   "appid": 750710,
   "name": "CRONEWORLD RPG GAME CH1",
+  "subscription": "released",
+  "linux": false,
+  "windows": true
+}
+{
+  "appid": 751930,
+  "name": "Sealer Assist Demo",
   "subscription": "released",
   "linux": false,
   "windows": true
