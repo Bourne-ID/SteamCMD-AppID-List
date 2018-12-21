@@ -288,7 +288,7 @@
 {
   "appid": 227050,
   "name": "Left 4 Dead 2 Beta - Linux Dedicated Server",
-  "subscription": "released (Subscribed,Invalid",
+  "subscription": "released",
   "linux": true,
   "windows": false
 }
@@ -484,6 +484,13 @@
 {
   "appid": 301650,
   "name": "Battlezone 98 Redux",
+  "subscription": "released",
+  "linux": false,
+  "windows": true
+}
+{
+  "appid": 302200,
+  "name": "Miscreated Dedicated Server",
   "subscription": "released",
   "linux": false,
   "windows": true
@@ -2255,7 +2262,7 @@
 {
   "appid": 754480,
   "name": "Dummy!",
-  "subscription": "prerelease",
+  "subscription": "released",
   "linux": false,
   "windows": true
 }
@@ -2703,7 +2710,7 @@
 {
   "appid": 983780,
   "name": "XSprite",
-  "subscription": "prerelease",
+  "subscription": "released",
   "linux": false,
   "windows": true
 }

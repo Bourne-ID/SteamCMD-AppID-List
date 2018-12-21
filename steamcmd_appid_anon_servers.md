@@ -70,6 +70,7 @@
 | 298740 | Space Engineers Dedicated Server                        | released (Subscribed,Permanent,)                  | true  | true    |
 | 299310 | Serious Sam Classics: Revolution Dedicated Server       | released (Subscribed,Permanent,)                  | false | true    |
 | 301650 | Battlezone 98 Redux                                     | released (Subscribed,Permanent,)                  | false | true    |
+| 302200 | Miscreated Dedicated Server                             | released (Subscribed,Permanent,)                  | false | true    |
 | 304930 | Unturned                                                | released (Subscribed,Permanent,)                  | true  | true    |
 | 311210 | Call of Duty: Black Ops III                             | released (Subscribed,Permanent,)                  | false | true    |
 | 313900 | NS2: Combat Dedicated Server                            | released (Subscribed,Permanent,)                  | true  | true    |
@@ -322,7 +323,7 @@
 | 750710 | CRONEWORLD RPG GAME CH1                                 | released (Subscribed,Permanent,)                  | false | true    |
 | 751930 | Sealer Assist Demo                                      | released (Subscribed,Permanent,)                  | false | true    |
 | 754150 | Rolling Line                                            | released (Subscribed,Permanent,)                  | false | true    |
-| 754480 | Dummy!                                                  | prerelease (Subscribed,Permanent,)                | false | true    |
+| 754480 | Dummy!                                                  | released (Subscribed,Permanent,)                  | false | true    |
 | 757780 | Sector 452                                              | released (Subscribed,Permanent,)                  | false | true    |
 | 761080 | Battle Splash 2.0 Dedicated Server                      | released (Subscribed,Permanent,)                  | true  | true    |
 | 762880 | Outpost Zero Dedicated Server                           | released (Subscribed,Permanent,)                  | true  | true    |
@@ -386,5 +387,5 @@
 | 976380 | Never Split the Party Dedicated Server                  | released (Subscribed,Permanent,)                  | true  | true    |
 | 976970 | A Cheesy Game                                           | released (Subscribed,Permanent,)                  | false | true    |
 | 977920 | BALSA Model Flight Simulator                            | prerelease (Subscribed,Permanent,)                | false | true    |
-| 983780 | XSprite                                                 | prerelease (Subscribed,Permanent,)                | false | true    |
+| 983780 | XSprite                                                 | released (Subscribed,Permanent,)                  | false | true    |
 | 983820 | RainWidget                                              | released (Subscribed,Permanent,)                  | false | true    |
