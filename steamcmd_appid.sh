@@ -176,14 +176,14 @@ cat steamcmd_appid_anon_servers.json | jq '.[] | [.appid, .name, .subscription, 
 cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
 
 # Remove details of licence information as this has been known to change randomly
-cat steamcmd_appid.json | jq '.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))' > steamcmd_appid.json$$
+cat steamcmd_appid.json | jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid.json$$
 mv steamcmd_appid.json$$ steamcmd_appid.json
 
 cat steamcmd_appid_anon_servers.json | jq '.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))' > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-cat steamcmd_appid.json | jq -r '[.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | jq -s '.' | md-table > steamcmd_appid.md
+cat steamcmd_appid.json | jq -r '.appid, .name, .subscription | @csv' > steamcmd_appid.csv
+cat steamcmd_appid.json | md-table > steamcmd_appid.md
 
 echo "exit"
 exit
