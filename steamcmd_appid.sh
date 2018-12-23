@@ -6,15 +6,68 @@
 # Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
 # env var TMUX_SESSIONS should be set.
 
+# Static variables
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
+# Functions
+
+# Downloads the source data files for analysis
+download_steam_files() {
 echo "Creating steamcmd_appid.json"
 curl https://api.steampowered.com/ISteamApps/GetAppList/v2/ | jq -r '.' > steamcmd_getapplist.json
 echo "Creating steamcmd_appid.xml"
 curl https://api.steampowered.com/ISteamApps/GetAppList/v2/?format=xml > steamcmd_appid.xml
+}
+
+# Checks for SteamCMD, and installs if it does not exist
+install_steamcmd(){
+    echo ""
+    echo "Installing SteamCMD"
+    echo "================================="
+    cd "${rootdir}"
+    mkdir -pv "steamcmd"
+    cd "steamcmd"
+    if [ ! -f "steamcmd.sh" ]; then
+        echo -e "downloading steamcmd_linux.tar.gz...\c"
+        wget -N /dev/null http://media.steampowered.com/client/steamcmd_linux.tar.gz 2>&1 | grep -F HTTP | cut -c45-| uniq
+        tar --verbose -zxf "steamcmd_linux.tar.gz"
+        rm -v "steamcmd_linux.tar.gz"
+        chmod +x "steamcmd.sh"
+    else
+        echo "Steam already installed!"
+    fi
+    cd "${rootdir}"
+}
+
+# Generate a list of commands to send to SteamCMD.
+# Parameter 1: JSON content to parse as an array of relevant entities
+# Returns: Output as string
+generate_commands() {
+    local input_json=${1}
+    local temp_file=$(mktemp)
+    echo $input_json > $temp_file
+
+    local output=$(jq -n -f "$temp_file" | jq -r '.[] | [.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/')
+
+    echo "${output}"
+    rm $temp_file
+}
+
+# check required external variables
+if [ -z ${TMUX_SESSIONS+x} ]; then
+    echo "TMUX_SESSIONS is not set. Please set this variable to allocate the number of TMUX sessions that should be used to query SteamCMD"
+    exit 1
+fi
+
+# pre-requirements
+download_steam_files
+install_steamcmd
 
 # prep the tmux command file for steamcmd
-cat steamcmd_getapplist.json | jq '.applist.apps[]' | jq -r '[.appid] | @csv' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_commands.sh
+parsed_json=$(cat steamcmd_getapplist.json | jq '.applist.apps')
+output=$(generate_commands "$parsed_json")
+echo "$output" > tmux_commands.sh
+
 # Split the commands into the ENV for the number of sessions - names of the files will be tmuxXX.sh
 split --numeric-suffixes=1 -n l/${TMUX_SESSIONS} --additional-suffix=.sh tmux_commands.sh tmux
 # Alter each split file to name the relevant session which will be created later
@@ -23,24 +76,7 @@ for id in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
     echo "tmux send-keys -t tmux${id} \"exit\" ENTER" >> tmux${id}.sh
 done
 
-# Install SteamCMD
-echo ""
-echo "Installing SteamCMD"
-echo "================================="
-cd "${rootdir}"
-mkdir -pv "steamcmd"
-cd "steamcmd"
-if [ ! -f "steamcmd.sh" ]; then
-    echo -e "downloading steamcmd_linux.tar.gz...\c"
-    wget -N /dev/null http://media.steampowered.com/client/steamcmd_linux.tar.gz 2>&1 | grep -F HTTP | cut -c45-| uniq
-    tar --verbose -zxf "steamcmd_linux.tar.gz"
-    rm -v "steamcmd_linux.tar.gz"
-    chmod +x "steamcmd.sh"
-else
-    echo "Steam already installed!"
-fi
-
-# Start a tmux session for steamcmd, pipe to file and wait for steam prompt
+# Start a tmux session for steamcmd, pipe to file and wait for steam prompt(s)
 echo "Starting ${TMUX_SESSIONS} TMUX Sessions"
 cd "${rootdir}"
 for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
@@ -93,11 +129,8 @@ echo "Processing Output from TMUX Sessions..."
 # Merge all tmux output to a single file
 for f in tmuxoutput*; do (cat "${f}"; echo) >> tmuxallout.txt; done
 
-# Parse file and create CSV of appid,result
-pcre2grep -M -o1 -o2 --om-separator=\; 'AppID ([0-9]{1,8})[\s\S]*?release state: (.*)$' tmuxallout.txt > tmuxallout.csv
-
-# convert the CSV to JSON
-jq -Rsn '
+# Parse file and create CSV of appid,result and convert the CSV to JSON
+pcre2grep -M -o1 -o2 --om-separator=\; 'AppID ([0-9]{1,8})[\s\S]*?release state: (.*)$' tmuxallout.txt | jq -Rsn '
   {"applist":
     {"apps":
       [inputs
@@ -107,7 +140,7 @@ jq -Rsn '
       ]
     }
   }
-' < tmuxallout.csv > tmuxallout.json
+' > tmuxallout.json
 
 # Merge the tmux files and generate CSV and MD files
 
@@ -116,10 +149,13 @@ jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' stea
 # Analyse licences and add additional OS/licence information
 
 echo "Extract released/prereleased appid's for further analysis"
-cat steamcmd_appid.json | jq '[.[] |  select(.subscription | contains("release"))]' > steamcmd_appid_anon_servers.json
+anon_servers=$(cat steamcmd_appid.json | jq '[.[] |  select(.subscription | contains("release"))]')
+echo "$anon_servers" > steamcmd_appid_anon_servers.json
 
 echo "Generate tmux script for anon servers"
-cat steamcmd_appid_anon_servers.json | jq -r '.[].appid' | sed 's/^/tmux send-keys "app_status /' | sed 's/$/" ENTER/' > tmux_anon_commands.sh
+output=$(generate_commands "$anon_servers")
+
+echo "$output" > tmux_anon_commands.sh
 
 chmod +x tmux_anon_commands.sh
 
