@@ -1,3 +1,4 @@
+
 # SteamCMD AppID List
 [![Build Status](https://travis-ci.org/dgibbs64/SteamCMD-AppID-List.svg?branch=master)](https://travis-ci.org/dgibbs64/SteamCMD-AppID-List)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/LICENSE)
@@ -20,6 +21,15 @@ You can get the output without using the script.
 
 [steamcmd_appid.md](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid.md)
 > Travis-CI checks daily for updates and posts them to this repo. So this list will always be up-to-date.
+
+## Anonymous Apps
+This repo also contains all applications accessible with the Steam login `anonymous` along with the compatible operating systems
+
+[steamcmd_appid_anon_servers.json](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid_anon_servers.json)
+
+[steamcmd_appid_anon_servers.csv](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid_anon_servers.csv)
+
+[steamcmd_appid_anon_servers.md](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/steamcmd_appid_anon_servers.md)
 
 ## Usage
 Simply download the script and run it.
