@@ -197,11 +197,11 @@ jq -Rsn '
 ' < tmuxwindows.csv > tmuxwindows.json
 
 echo "Adding Windows Compatibility Information"
-tmuxwindows.json < jq '[.[] | .windows = (.subscription | contains("Invalid Platform") | not )]' > tmuxwindows.json$$
+jq '[.[] | .windows = (.subscription | contains("Invalid Platform") | not )]' < tmuxwindows.json > tmuxwindows.json$$
 mv tmuxwindows.json$$ tmuxwindows.json
 
 echo "Adding Linux Compatibility Information" #here
-< steamcmd_appid_anon_servers.json jq '[.[] | .linux = (.subscription | contains("Invalid Platform") | not )]' > steamcmd_appid_anon_servers.json$$
+jq '[.[] | .linux = (.subscription | contains("Invalid Platform") | not )]' < steamcmd_appid_anon_servers.json > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
 echo "Merging information"
@@ -209,18 +209,18 @@ echo "Merging information"
 jq -s '[ .[0] + .[1] | group_by(.appid)[] | add]' steamcmd_appid_anon_servers.json tmuxwindows.json > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-< steamcmd_appid_anon_servers.json jq '.[] | [.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
-< steamcmd_appid_anon_servers.json jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
+jq '.[] | [.appid, .name, .subscription, .linux, .windows] | @csv' < steamcmd_appid_anon_servers.json > steamcmd_appid_anon_servers.csv
+jq -s '.[]' < steamcmd_appid_anon_servers.json | md-table > steamcmd_appid_anon_servers.md
 
 # Remove details of licence information as this has been known to change randomly
-< steamcmd_appid.json jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid.json$$
+jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' < steamcmd_appid.json > steamcmd_appid.json$$
 mv steamcmd_appid.json$$ steamcmd_appid.json
 
-< steamcmd_appid_anon_servers.json jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid_anon_servers.json$$
+jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' < steamcmd_appid_anon_servers.json > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-< steamcmd_appid.json jq '.[] | [.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
-< steamcmd_appid.json md-table > steamcmd_appid.md
+jq '.[] | [.appid, .name, .subscription] | @csv' < steamcmd_appid.json> steamcmd_appid.csv
+ md-table < steamcmd_appid.json > steamcmd_appid.md
 
 echo "exit"
 exit
