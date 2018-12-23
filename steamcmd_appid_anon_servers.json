@@ -2459,7 +2459,7 @@
   {
     "appid": 834910,
     "name": "ATLAS",
-    "subscription": "prerelease",
+    "subscription": "released",
     "linux": false,
     "windows": true
   },
