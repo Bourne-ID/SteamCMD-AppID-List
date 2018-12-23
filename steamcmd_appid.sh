@@ -2,14 +2,14 @@
 # steamcmd_appid.sh
 # Author: Daniel Gibbs and Robin Bourne
 # Website: http://danielgibbs.co.uk
-# Version: 181121
-# Description: Saves the complete list of all the appid their names in json and csv and produces a anonymous server list
+# Version: 181223
+# Description: Saves the complete list of all the appid their names in json and csv and produces an anonymous server list
 # env var TMUX_SESSIONS should be set.
 
 # Static variables
 rootdir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 
-# Functions
+# Methods
 
 # Downloads the source data files for analysis
 download_steam_files() {
