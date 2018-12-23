@@ -64,7 +64,7 @@ download_steam_files
 install_steamcmd
 
 # prep the tmux command file for steamcmd
-parsed_json=$(cat steamcmd_getapplist.json | jq '.applist.apps')
+parsed_json=$(< steamcmd_getapplist.json jq '.applist.apps')
 output=$(generate_commands "$parsed_json")
 echo "$output" > tmux_commands.sh
 
@@ -150,7 +150,7 @@ jq -s '[ .[0].applist.apps + .[1].applist.apps | group_by(.appid)[] | add]' stea
 # Analyse licences and add additional OS/licence information
 
 echo "Extract released/prereleased appid's for further analysis"
-anon_servers=$(cat steamcmd_appid.json | jq '[.[] |  select(.subscription | contains("release"))]')
+anon_servers=$(< steamcmd_appid.json jq '[.[] |  select(.subscription | contains("release"))]')
 echo "$anon_servers" > steamcmd_appid_anon_servers.json
 
 echo "Generate tmux script for anon servers"
