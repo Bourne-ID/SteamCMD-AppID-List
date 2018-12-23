@@ -1,4 +1,3 @@
-
 # SteamCMD AppID List
 [![Build Status](https://travis-ci.org/dgibbs64/SteamCMD-AppID-List.svg?branch=master)](https://travis-ci.org/dgibbs64/SteamCMD-AppID-List)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/dgibbs64/SteamCMD-AppID-List/blob/master/LICENSE)

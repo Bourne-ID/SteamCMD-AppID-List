@@ -88,15 +88,16 @@ steamprompt=false
 echo "Waiting for Steam prompt"
 
 # Bitwise check - may be useful for debug in the future
-for attemptnumber in {1..120}; do
+for _ in {1..120}; do
     total=0
     for sessionid in $(seq -f %02g 1 ${TMUX_SESSIONS}); do
         if grep -q "Steam>" tmuxoutput${sessionid}; then
-            total=$(( ${total} + ( 2**( ${sessionid} - 1 ) ) ))
+            total=$(( total + ( 2**( sessionid - 1 ) ) ))
         fi
     done
 
-    if [ $(( (2**(${TMUX_SESSIONS}))-1 )) -eq ${total} ]; then
+    if [ $(( (2**(TMUX_SESSIONS))-1 )) -eq total ]; then
+        # shellcheck disable=SC2034
         steamprompt=true
         break
     else
@@ -105,7 +106,7 @@ for attemptnumber in {1..120}; do
     fi
 done
 
-echo "\n Starting App ID checks"
+echo "Starting App ID checks"
 
 if [ steamprompt ]; then
     for sessionid in $(seq -f %02g 01 ${TMUX_SESSIONS}); do
@@ -196,11 +197,11 @@ jq -Rsn '
 ' < tmuxwindows.csv > tmuxwindows.json
 
 echo "Adding Windows Compatibility Information"
-cat tmuxwindows.json | jq '[.[] | .windows = (.subscription | contains("Invalid Platform") | not )]' > tmuxwindows.json$$
+tmuxwindows.json < jq '[.[] | .windows = (.subscription | contains("Invalid Platform") | not )]' > tmuxwindows.json$$
 mv tmuxwindows.json$$ tmuxwindows.json
 
 echo "Adding Linux Compatibility Information" #here
-cat steamcmd_appid_anon_servers.json | jq '[.[] | .linux = (.subscription | contains("Invalid Platform") | not )]' > steamcmd_appid_anon_servers.json$$
+< steamcmd_appid_anon_servers.json jq '[.[] | .linux = (.subscription | contains("Invalid Platform") | not )]' > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
 echo "Merging information"
@@ -208,18 +209,18 @@ echo "Merging information"
 jq -s '[ .[0] + .[1] | group_by(.appid)[] | add]' steamcmd_appid_anon_servers.json tmuxwindows.json > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-cat steamcmd_appid_anon_servers.json | jq '.[] | [.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
-cat steamcmd_appid_anon_servers.json | jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
+< steamcmd_appid_anon_servers.json jq '.[] | [.appid, .name, .subscription, .linux, .windows] | @csv' > steamcmd_appid_anon_servers.csv
+< steamcmd_appid_anon_servers.json jq -s '.[]' | md-table > steamcmd_appid_anon_servers.md
 
 # Remove details of licence information as this has been known to change randomly
-cat steamcmd_appid.json | jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid.json$$
+< steamcmd_appid.json jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid.json$$
 mv steamcmd_appid.json$$ steamcmd_appid.json
 
-cat steamcmd_appid_anon_servers.json | jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid_anon_servers.json$$
+< steamcmd_appid_anon_servers.json jq '[.[] | .subscription = (.subscription | sub("(?<vers>.? ).*"; .vers) | rtrimstr(" "))]' > steamcmd_appid_anon_servers.json$$
 mv steamcmd_appid_anon_servers.json$$ steamcmd_appid_anon_servers.json
 
-cat steamcmd_appid.json | jq '.[] | [.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
-cat steamcmd_appid.json | md-table > steamcmd_appid.md
+< steamcmd_appid.json jq '.[] | [.appid, .name, .subscription] | @csv' > steamcmd_appid.csv
+< steamcmd_appid.json md-table > steamcmd_appid.md
 
 echo "exit"
 exit
