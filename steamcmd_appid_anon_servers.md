@@ -68,10 +68,18 @@
 | 295230 | Fistful of Frags Dedicated Server                       | released (Subscribed,Permanent,)                  | true  | true    |
 | 296300 | Ballistic Overkill                                      | released (Subscribed,Permanent,)                  | true  | true    |
 | 298740 | Space Engineers Dedicated Server                        | released (Subscribed,Permanent,)                  | true  | true    |
+| 299310 | Serious Sam Classics: Revolution Dedicated Server       | released (Subscribed,Permanent,)                  | false | true    |
 | 301650 | Battlezone 98 Redux                                     | released (Subscribed,Permanent,)                  | false | true    |
 | 302200 | Miscreated Dedicated Server                             | released (Subscribed,Permanent,)                  | false | true    |
 | 304930 | Unturned                                                | released (Subscribed,Permanent,)                  | true  | true    |
 | 311210 | Call of Duty: Black Ops III                             | released (Subscribed,Permanent,)                  | false | true    |
+| 313900 | NS2: Combat Dedicated Server                            | released (Subscribed,Permanent,)                  | true  | true    |
+| 317670 | No More Room in Hell Dedicated Server                   | released (Subscribed,Permanent,)                  | true  | true    |
+| 320850 | Life is Feudal: Your Own Dedicated Server               | released (Subscribed,Permanent,)                  | true  | true    |
+| 321360 | Primal Carnage: Extinction                              | released (Subscribed,Permanent,)                  | false | true    |
+| 324870 | RS/RO2 Alpha Community Maps - Dedicated Server          | released (Subscribed,Permanent,)                  | false | true    |
+| 324890 | RS/RO2 Beta Community Maps - Dedicated Server           | released (Subscribed,Permanent,)                  | false | true    |
+| 325180 | AppGameKit                                              | released (Subscribed,Permanent,)                  | true  | true    |
 | 326960 | Killing Floor - Toy Master                              | released (Subscribed,Permanent,)                  | true  | true    |
 | 328070 | Reflex Arena                                            | released (Subscribed,Permanent,)                  | false | true    |
 | 328950 | SNOW Dedicated Server                                   | released (Subscribed,Permanent,)                  | false | true    |
@@ -102,15 +110,24 @@
 | 370070 | Wyrmsun                                                 | released (Subscribed,Permanent,)                  | true  | true    |
 | 376210 | The Isle                                                | released (Subscribed,Permanent,)                  | false | true    |
 | 378670 | Savage Lands Dedicated Server                           | released (Subscribed,Permanent,)                  | true  | true    |
+| 381690 | Reign Of Kings Dedicated Server                         | released (Subscribed,Permanent,)                  | false | true    |
+| 382030 | Yargis - Space Melee - Dedicated Server                 | released (Subscribed,Permanent,)                  | false | true    |
+| 382280 | Abatron Dedicated Server                                | released (Subscribed,Permanent,)                  | true  | true    |
+| 383410 | Codename CURE Dedicated Server                          | released (Subscribed,Permanent,)                  | true  | true    |
+| 393250 | Savage Resurrection Dedicated Server                    | released (Subscribed,Permanent,)                  | true  | true    |
 | 393380 | Squad                                                   | released (Subscribed,Permanent,)                  | false | true    |
 | 393420 | Hurtworld                                               | released (Subscribed,Permanent,)                  | false | true    |
 | 394690 | Tower Unite                                             | released (Subscribed,Permanent,)                  | false | true    |
+| 395760 | Decent Icons                                            | released (Subscribed,Permanent,)                  | false | true    |
+| 402370 | Wurm Unlimited Dedicated Server                         | released (Subscribed,Permanent,)                  | true  | true    |
 | 403240 | Squad Dedicated Server                                  | released (Subscribed,Permanent,)                  | true  | true    |
 | 404530 | Voxel Turf                                              | released (Subscribed,Permanent,)                  | true  | true    |
 | 405100 | Hurtworld Dedicated Server                              | released (Subscribed,Permanent,)                  | true  | true    |
 | 405710 | Staxel                                                  | released (Subscribed,Permanent,)                  | false | true    |
+| 407480 | Angels Fall First Dedicated Server                      | released (Subscribed,Permanent,)                  | true  | true    |
 | 407530 | ARK: Survival Of The Fittest                            | released (Subscribed,Permanent,)                  | true  | true    |
 | 412680 | The Isle Dedicated Server                               | released (Subscribed,Permanent,)                  | true  | true    |
+| 414120 | Modbox                                                  | released (Subscribed,Permanent,)                  | false | true    |
 | 414570 | Crea Dedicated Server                                   | released (Subscribed,Permanent,)                  | true  | true    |
 | 416880 | Ballistic Overkill Dedicated Server                     | released (Subscribed,Permanent,)                  | true  | true    |
 | 418460 | Rising Storm 2: Vietnam                                 | released (Subscribed,Permanent,)                  | false | true    |
@@ -173,6 +190,8 @@
 | 530700 | Argo                                                    | released (Subscribed,Permanent,)                  | false | true    |
 | 530870 | Empyrion - Galactic Survival Dedicated Server           | released (Subscribed,Permanent,)                  | true  | true    |
 | 530890 | Haydee                                                  | released (Subscribed,Permanent,)                  | false | true    |
+| 532170 | WaveLand                                                | released (Subscribed,Permanent,)                  | false | true    |
+| 535490 | Porno Studio Tycoon                                     | released (Subscribed,Permanent,)                  | false | true    |
 | 541200 | Get To The Orange Door                                  | released (Subscribed,Permanent,)                  | false | true    |
 | 541790 | Days of War Dedicated Server                            | released (Subscribed,Permanent,)                  | false | true    |
 | 544550 | Stationeers                                             | released (Subscribed,Permanent,)                  | false | true    |
@@ -249,8 +268,19 @@
 | 640800 | Skyfront VR                                             | released (Subscribed,Permanent,)                  | false | true    |
 | 643090 | Them's Fightin' Herds Dedicated Server                  | released (Subscribed,Permanent,)                  | true  | true    |
 | 644930 | They Are Billions                                       | released (Subscribed,Permanent,)                  | false | true    |
+| 647960 | Rusted Warfare - RTS                                    | released (Subscribed,Permanent,)                  | true  | true    |
+| 647980 | Trojan Inc.                                             | released (Subscribed,Permanent,)                  | false | true    |
+| 652460 | Fragmentum                                              | released (Subscribed,Permanent,)                  | true  | true    |
+| 657080 | Project Taurus                                          | prerelease (Subscribed,Permanent,)                | true  | true    |
+| 660940 | Law Mower                                               | released (Subscribed,Permanent,)                  | false | true    |
+| 661650 | Roll Out                                                | released (Subscribed,Permanent,)                  | false | true    |
+| 664140 | IsoBoom                                                 | released (Subscribed,Permanent,)                  | false | true    |
 | 665920 | SHOWMAKER                                               | released (Subscribed,Permanent,)                  | false | true    |
 | 667230 | Capsa Dedicated Server                                  | released (Subscribed,Permanent,)                  | false | true    |
+| 667490 | Be Quiet! Mods                                          | released (Subscribed,Permanent,)                  | false | true    |
+| 667530 | Drunken Wrestlers 2                                     | prerelease (Subscribed,Permanent,)                | false | true    |
+| 668390 | Hanako: Honor & Blade Dedicated Server                  | released (Subscribed,Permanent,)                  | true  | true    |
+| 672220 | Unlimited                                               | released (Subscribed,Permanent,)                  | false | true    |
 | 673990 | IOSoccer Dedicated Server                               | released (Subscribed,Permanent,)                  | true  | true    |
 | 674010 | Loneliness Early Acess                                  | released (Subscribed,Permanent,)                  | false | true    |
 | 679600 | Pantropy dedicated server                               | released (Subscribed,Permanent,)                  | true  | true    |
@@ -327,7 +357,9 @@
 | 844410 | Triggered: Assault Dedicated Server                     | released (Subscribed,Permanent,)                  | true  | true    |
 | 844650 | Post Scriptum - Beta Dedicated Server                   | released (Subscribed,Permanent,)                  | true  | true    |
 | 848490 | Murderous Pursuits Beta Dedicated Server                | released (Subscribed,Permanent,)                  | true  | true    |
+| 859010 | UniverCity Dedicated Server                             | released (Subscribed,Permanent,)                  | true  | true    |
 | 864060 | Marble It Up!                                           | released (Subscribed,Permanent,)                  | false | true    |
+| 865990 | Highway Junkie                                          | released (Subscribed,Permanent,)                  | false | true    |
 | 880770 | Cybrus                                                  | released (Subscribed,Permanent,)                  | true  | true    |
 | 881600 | Fasaria World: Ancients of Moons Server                 | released (Subscribed,Permanent,)                  | false | true    |
 | 888520 | Pillage Dedicated Server                                | released (Subscribed,Permanent,)                  | false | true    |

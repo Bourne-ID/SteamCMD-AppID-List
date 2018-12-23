@@ -476,6 +476,13 @@
     "windows": true
   },
   {
+    "appid": 299310,
+    "name": "Serious Sam Classics: Revolution Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
     "appid": 301650,
     "name": "Battlezone 98 Redux",
     "subscription": "released",
@@ -501,6 +508,55 @@
     "name": "Call of Duty: Black Ops III",
     "subscription": "released",
     "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 313900,
+    "name": "NS2: Combat Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 317670,
+    "name": "No More Room in Hell Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 320850,
+    "name": "Life is Feudal: Your Own Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 321360,
+    "name": "Primal Carnage: Extinction",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 324870,
+    "name": "RS/RO2 Alpha Community Maps - Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 324890,
+    "name": "RS/RO2 Beta Community Maps - Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 325180,
+    "name": "AppGameKit",
+    "subscription": "released",
+    "linux": true,
     "windows": true
   },
   {
@@ -714,6 +770,41 @@
     "windows": true
   },
   {
+    "appid": 381690,
+    "name": "Reign Of Kings Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 382030,
+    "name": "Yargis - Space Melee - Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 382280,
+    "name": "Abatron Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 383410,
+    "name": "Codename CURE Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 393250,
+    "name": "Savage Resurrection Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
     "appid": 393380,
     "name": "Squad",
     "subscription": "released",
@@ -732,6 +823,20 @@
     "name": "Tower Unite",
     "subscription": "released",
     "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 395760,
+    "name": "Decent Icons",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 402370,
+    "name": "Wurm Unlimited Dedicated Server",
+    "subscription": "released",
+    "linux": true,
     "windows": true
   },
   {
@@ -763,6 +868,13 @@
     "windows": true
   },
   {
+    "appid": 407480,
+    "name": "Angels Fall First Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
     "appid": 407530,
     "name": "ARK: Survival Of The Fittest",
     "subscription": "released",
@@ -774,6 +886,13 @@
     "name": "The Isle Dedicated Server",
     "subscription": "released",
     "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 414120,
+    "name": "Modbox",
+    "subscription": "released",
+    "linux": false,
     "windows": true
   },
   {
@@ -1206,6 +1325,20 @@
   {
     "appid": 530890,
     "name": "Haydee",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 532170,
+    "name": "WaveLand",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 535490,
+    "name": "Porno Studio Tycoon",
     "subscription": "released",
     "linux": false,
     "windows": true
@@ -1743,6 +1876,55 @@
     "windows": true
   },
   {
+    "appid": 647960,
+    "name": "Rusted Warfare - RTS",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 647980,
+    "name": "Trojan Inc.",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 652460,
+    "name": "Fragmentum",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 657080,
+    "name": "Project Taurus",
+    "subscription": "prerelease",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 660940,
+    "name": "Law Mower",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 661650,
+    "name": "Roll Out",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 664140,
+    "name": "IsoBoom",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
     "appid": 665920,
     "name": "SHOWMAKER",
     "subscription": "released",
@@ -1752,6 +1934,34 @@
   {
     "appid": 667230,
     "name": "Capsa Dedicated Server",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 667490,
+    "name": "Be Quiet! Mods",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 667530,
+    "name": "Drunken Wrestlers 2",
+    "subscription": "prerelease",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 668390,
+    "name": "Hanako: Honor & Blade Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
+    "appid": 672220,
+    "name": "Unlimited",
     "subscription": "released",
     "linux": false,
     "windows": true
@@ -2289,8 +2499,22 @@
     "windows": true
   },
   {
+    "appid": 859010,
+    "name": "UniverCity Dedicated Server",
+    "subscription": "released",
+    "linux": true,
+    "windows": true
+  },
+  {
     "appid": 864060,
     "name": "Marble It Up!",
+    "subscription": "released",
+    "linux": false,
+    "windows": true
+  },
+  {
+    "appid": 865990,
+    "name": "Highway Junkie",
     "subscription": "released",
     "linux": false,
     "windows": true
