@@ -96,7 +96,7 @@ for _ in {1..120}; do
         fi
     done
 
-    if [ $(( (2**(TMUX_SESSIONS))-1 )) -eq total ]; then
+    if [ $(( (2**(TMUX_SESSIONS))-1 )) -eq ${total} ]; then
         # shellcheck disable=SC2034
         steamprompt=true
         break
